@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Runtime data (generated at run time, not source)
+data/articles/*
+!data/articles/.gitkeep
+state/*
+!state/.gitkeep
+logs/*
+!logs/.gitkeep
