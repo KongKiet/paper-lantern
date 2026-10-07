@@ -1,0 +1,122 @@
+name: Daily sync
+
+# Live ingestion runs only on the schedule or by hand; never on push or pull_request.
+on:
+  schedule:
+    - cron: "17 1 * * *" # 01:17 UTC = 08:17 Vietnam time (UTC+7)
+  workflow_dispatch:
+
+permissions:
+  contents: write # push snapshots to the pipeline-state branch with GITHUB_TOKEN
+
+concurrency:
+  group: daily-sync
+  cancel-in-progress: false
+
+env:
+  STATE_BRANCH: pipeline-state
+  STATE_REF: refs/remotes/origin/pipeline-state
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v5
+
+      - name: Record start time
+        id: start
+        run: echo "at=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
+
+      - name: Check API_KEY secret
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          if [ -z "$API_KEY" ]; then
+            echo "::error::Repository secret API_KEY is not set."
+            exit 1
+          fi
+
+      - name: Fetch state branch
+        run: |
+          if ! git fetch --no-tags --depth=1 origin "+refs/heads/$STATE_BRANCH:$STATE_REF"; then
+            echo "::error::Branch $STATE_BRANCH not found. Seed it before the first run (docs/hosted-sync.md)."
+            exit 1
+          fi
+
+      # Fails without writing anything if the store/manifest/articles are missing or inconsistent,
+      # so Gemini is never called with empty state.
+      - name: Restore state
+        id: restore
+        run: python3 scripts/state_sync.py restore --ref "$STATE_REF"
+
+      - name: Build image
+        run: docker build -t paper-lantern:local .
+
+      # Always exits 0 so state is saved after a partial failure; the real exit code is
+      # re-raised by the last step.
+      - name: Run pipeline
+        id: pipeline
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+        run: |
+          set +e
+          timeout --kill-after=60s 45m docker run --rm --name paper-lantern-run \
+            -e API_KEY -e GEMINI_MODEL \
+            -v "$PWD/data:/app/data" \
+            -v "$PWD/state:/app/state" \
+            -v "$PWD/logs:/app/logs" \
+            paper-lantern:local run --limit 30
+          code=$?
+          docker rm -f paper-lantern-run >/dev/null 2>&1
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -ne 0 ]; then echo "::warning::Pipeline exited with $code; saving progress before failing."; fi
+          exit 0
+
+      - name: Persist state
+        id: save
+        if: always() && steps.pipeline.outcome == 'success'
+        env:
+          API_KEY: ${{ secrets.API_KEY }} # only used to make sure it is not in any persisted file
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          MESSAGE: "State from run ${{ github.run_id }}/${{ github.run_attempt }} (pipeline exit ${{ steps.pipeline.outputs.exit_code }})"
+        run: |
+          python3 scripts/state_sync.py save --parent "$STATE_REF" --push \
+            --remote origin --branch "$STATE_BRANCH" --message "$MESSAGE"
+
+      - name: Upload diagnostic logs
+        id: artifact
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: pipeline-logs-${{ github.run_id }}-${{ github.run_attempt }}
+          path: logs/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Job summary
+        if: always()
+        env:
+          JOB_STARTED_AT: ${{ steps.start.outputs.at }}
+          RESTORE_OUTCOME: ${{ steps.restore.outcome }}
+          PIPELINE_EXIT: ${{ steps.pipeline.outputs.exit_code }}
+          SAVE_OUTCOME: ${{ steps.save.outcome }}
+          SAVE_RESULT: ${{ steps.save.outputs.result }}
+          ARTIFACT_URL: ${{ steps.artifact.outputs.artifact-url }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 scripts/job_summary.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report pipeline status
+        if: always() && steps.pipeline.outcome == 'success'
+        env:
+          CODE: ${{ steps.pipeline.outputs.exit_code }}
+        run: |
+          if [ "$CODE" != "0" ]; then
+            echo "::error::Pipeline failed with exit code $CODE (state was saved separately; see summary)."
+            exit "$CODE"
+          fi

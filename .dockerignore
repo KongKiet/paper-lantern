@@ -1,0 +1,37 @@
+# Secrets: never bake into the image (pass with --env-file / -e at run time)
+.env
+.env.*
+!.env.sample
+*.pem
+*.key
+secrets/
+
+# Local environments and tooling
+.venv/
+venv/
+.git/
+.gitignore
+.dockerignore
+.claude/
+.vscode/
+.idea/
+
+# Caches
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated runtime data (bind-mount data/, state/, logs/ instead)
+data/
+state/
+logs/
+
+# Not needed at run time
+tests/
+Dockerfile
+.github/
+scripts/
