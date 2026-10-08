@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-07T11:46:41Z",
-  "finished_at": "2026-10-07T11:46:45Z",
-  "elapsed_seconds": 3.9,
+  "started_at": "2026-10-08T07:30:20Z",
+  "finished_at": "2026-10-08T07:30:33Z",
+  "elapsed_seconds": 12.6,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 0,
+    "added": 1,
     "updated": 0,
-    "skipped": 30,
+    "skipped": 29,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -29,6 +29,22 @@
   },
   "discovery_error": null,
   "articles": [
+    {
+      "article_id": "33940834613139",
+      "title": "What Do I Get With an OptiSigns Free Plan?",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/33940834613139-What-Do-I-Get-With-an-OptiSigns-Free-Plan",
+      "updated_at": "2026-10-07T22:30:11Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/what-do-i-get-with-an-optisigns-free-plan.md",
+      "content_sha256": "d9bf06bb5494fe8f130e91101808b73e7c96845d3d14631464e9db09a6c22c8c",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/whatdoigetwithanoptisignsfr-8sa90ilg9jhs",
+      "replaced_document": null,
+      "error": null
+    },
     {
       "article_id": "25607930101907",
       "title": "How to get the most out of your Digital Signs",
@@ -478,22 +494,6 @@
       "error": null
     },
     {
-      "article_id": "44650391786131",
-      "title": "Kiosk Setup Hub",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/44650391786131-Kiosk-Setup-Hub",
-      "updated_at": "2026-09-29T12:54:41Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/kiosk-setup-hub.md",
-      "content_sha256": "378929209a38b9e4bdedb2cfd6d0be7b82730ca5f7d6377217a18d1f2f0aab26",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/kiosksetuphubmd-sjzgetybhr2n",
-      "replaced_document": null,
-      "error": null
-    },
-    {
       "article_id": "360051014713",
       "title": "How to Use YouTube with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-Use-YouTube-with-OptiSigns",
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 30,
+    "tracked_active_documents_in_manifest": 31,
     "provider_chunk_count": null
   }
 }
