@@ -224,6 +224,7 @@ class DeltaUploadTests(Workspace):
         self.assertEqual(c["selected_documents_confirmed_active"], 3)
         self.assertEqual(client.file_search_stores.documents.deleted, [old_doc])  # only the replaced one
         self.assertIsNone(second["indexing"]["provider_chunk_count"])
+        self.assertIn("does not expose", second["indexing"]["provider_chunk_count_reason"])
 
     def test_unchanged_rerun_uploads_nothing_and_keeps_files(self):
         client = fake_client()

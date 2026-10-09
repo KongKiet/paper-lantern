@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-10-08T09:50:03Z",
+  "question": "How do I bake a chocolate cake at home? Please provide a recipe.",
+  "model": "gemini-3.5-flash-lite",
+  "file_search_store": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6",
+  "interaction_id": "v1_ChdUMmZIYXFfS0ZQakVnOFVQbHNiRS1RMBIXVDJmSGFxX0tGUGpFZzhVUGxzYkUtUTA",
+  "interaction_status": "completed",
+  "answer": "I'm sorry, but I can only answer questions related to OptiSigns using the provided documentation. I do not have a recipe for baking a chocolate cake. \n\nFor assistance with OptiSigns digital signage products, please let me know!",
+  "citations": {
+    "raw_annotations": [],
+    "file_citation_count": 0,
+    "mapped": [],
+    "unmapped": []
+  },
+  "verified_sources": [],
+  "verification": {
+    "require_citations": false,
+    "passed": false,
+    "reason": "Gemini returned no file_citation annotations."
+  },
+  "query": {
+    "attempts": 1,
+    "max_attempts": 2,
+    "timeout_seconds": 120.0
+  }
+}

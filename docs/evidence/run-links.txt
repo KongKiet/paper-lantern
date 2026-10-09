@@ -1,0 +1,3 @@
+Manual run — Daily sync #2: https://github.com/KongKiet/paper-lantern/actions/runs/37616352599
+
+Scheduled run — Daily sync #3: https://github.com/KongKiet/paper-lantern/actions/runs/37743794945

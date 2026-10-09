@@ -1,0 +1,127 @@
+# OptiBot query
+
+- Question: How do I install the OptiSigns APK on my Fire TV?
+- Model: gemini-3.5-flash-lite
+- File Search store: fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6
+- Interaction ID: v1_ChdrbVhIYW9HSEM4M0RnOFVQeVpfVi1RMBIXa21YSGFvR0hDODNEZzhVUHlaX1YtUTA
+- Citations required: True; verification passed: True
+
+## Answer (as returned by Gemini)
+
+To install the OptiSigns APK on your Fire TV, follow these steps:
+
+* Go to your **Fire TV Stick’s Settings** > **My Fire TV** > **Developer Options** and set **Apps from Unknown Sources** to **ON**.
+* Open the **Amazon Appstore** on your Fire TV, search for **Downloader**, and install it.
+* Open the Downloader app and enter the URL: `https://links.optisigns.com/fireos`.
+* Download the file and select **Files** within the Downloader interface to install it.
+
+For more details, check out the full guide here: [How to Install an APK file on your Fire TV](https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV).
+
+## Verified sources
+
+Article URL: https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV
+
+## Citation evidence
+
+file_citation annotations: 5, mapped: 5, unmapped: 0
+
+```json
+{
+  "raw_annotations": [
+    {
+      "custom_metadata": {
+        "article_id": "360016313754",
+        "content_sha256": "94ecc442b575dbf6cfd668fbd5dc340a1f46eceb60398485d27785fb25277f17"
+      },
+      "document_uri": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6",
+      "end_index": 199,
+      "file_name": "how-to-install-an-apk-file-on-your-fire-tv.md",
+      "source": "# How to Install an APK file on your Fire TV\n\nArticle URL: https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV\n\nArticle ID: 360016313754\n\nLocale: en-us\n\nUpdated at: 2026-10-05T21:09:30Z\n\n---\n\nWe strongly recommend to install the Fire TV app via Amazon App store, that way Amazon will automatically keep your app up to date with new releases.\n\n**Steps to install APK on your Fire TV:**\n\n1) Go to your **Fire TV Stick’s settings page** located at the top of the home menu.\n\n![Fire_Stick-1.png](https://support.optisigns.com/hc/article_attachments/1500012107941)\n\n2) Scroll right and choose **My Fire TV**\n\n![Fire_Stick-2.png](https://support.optisigns.com/hc/article_attachments/1500012107921)\n\n3) Move down to **Developer Options**\n\n**![Fire_Stick-3.png](https://support.optisigns.com/hc/article_attachments/1500011806502)**\n\n4) Set **Apps from Unknown Sources** to ON.\n\n![Fire_Stick-4_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015575461)\n\n5) **Accept the warning message** about installing external apps\n\n![Fire_Stick-5_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015577081)\n\n6) Next is to download and install OptiSigns' APK app.\n\n- Open the **Amazon appstore** on your Fire TV.\n- Search for [Downloader](https://www.amazon.com/AFTVnews-com-Downloader/dp/B01N0BP507) and install the program.\n\n![mceclip1.png](https://support.optisigns.com/hc/article_attachments/1500015576341)\n\n- **Open Downloader and type in the URL: <https://links.optisigns.com/fireos>**\n- **Download the file through Downloader**. Once complete, you can install it by selecting “Files” within the interface.\n- Installed apps will appear on your Fire Stick’s main page along with the rest of your software.\n\n",
+      "start_index": 67,
+      "type": "file_citation",
+      "text_block_index": 0
+    },
+    {
+      "custom_metadata": {
+        "article_id": "360016313754",
+        "content_sha256": "94ecc442b575dbf6cfd668fbd5dc340a1f46eceb60398485d27785fb25277f17"
+      },
+      "document_uri": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6",
+      "end_index": 290,
+      "file_name": "how-to-install-an-apk-file-on-your-fire-tv.md",
+      "source": "# How to Install an APK file on your Fire TV\n\nArticle URL: https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV\n\nArticle ID: 360016313754\n\nLocale: en-us\n\nUpdated at: 2026-10-05T21:09:30Z\n\n---\n\nWe strongly recommend to install the Fire TV app via Amazon App store, that way Amazon will automatically keep your app up to date with new releases.\n\n**Steps to install APK on your Fire TV:**\n\n1) Go to your **Fire TV Stick’s settings page** located at the top of the home menu.\n\n![Fire_Stick-1.png](https://support.optisigns.com/hc/article_attachments/1500012107941)\n\n2) Scroll right and choose **My Fire TV**\n\n![Fire_Stick-2.png](https://support.optisigns.com/hc/article_attachments/1500012107921)\n\n3) Move down to **Developer Options**\n\n**![Fire_Stick-3.png](https://support.optisigns.com/hc/article_attachments/1500011806502)**\n\n4) Set **Apps from Unknown Sources** to ON.\n\n![Fire_Stick-4_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015575461)\n\n5) **Accept the warning message** about installing external apps\n\n![Fire_Stick-5_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015577081)\n\n6) Next is to download and install OptiSigns' APK app.\n\n- Open the **Amazon appstore** on your Fire TV.\n- Search for [Downloader](https://www.amazon.com/AFTVnews-com-Downloader/dp/B01N0BP507) and install the program.\n\n![mceclip1.png](https://support.optisigns.com/hc/article_attachments/1500015576341)\n\n- **Open Downloader and type in the URL: <https://links.optisigns.com/fireos>**\n- **Download the file through Downloader**. Once complete, you can install it by selecting “Files” within the interface.\n- Installed apps will appear on your Fire Stick’s main page along with the rest of your software.\n\n",
+      "start_index": 201,
+      "type": "file_citation",
+      "text_block_index": 0
+    },
+    {
+      "custom_metadata": {
+        "article_id": "360016313754",
+        "content_sha256": "94ecc442b575dbf6cfd668fbd5dc340a1f46eceb60398485d27785fb25277f17"
+      },
+      "document_uri": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6",
+      "end_index": 373,
+      "file_name": "how-to-install-an-apk-file-on-your-fire-tv.md",
+      "source": "# How to Install an APK file on your Fire TV\n\nArticle URL: https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV\n\nArticle ID: 360016313754\n\nLocale: en-us\n\nUpdated at: 2026-10-05T21:09:30Z\n\n---\n\nWe strongly recommend to install the Fire TV app via Amazon App store, that way Amazon will automatically keep your app up to date with new releases.\n\n**Steps to install APK on your Fire TV:**\n\n1) Go to your **Fire TV Stick’s settings page** located at the top of the home menu.\n\n![Fire_Stick-1.png](https://support.optisigns.com/hc/article_attachments/1500012107941)\n\n2) Scroll right and choose **My Fire TV**\n\n![Fire_Stick-2.png](https://support.optisigns.com/hc/article_attachments/1500012107921)\n\n3) Move down to **Developer Options**\n\n**![Fire_Stick-3.png](https://support.optisigns.com/hc/article_attachments/1500011806502)**\n\n4) Set **Apps from Unknown Sources** to ON.\n\n![Fire_Stick-4_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015575461)\n\n5) **Accept the warning message** about installing external apps\n\n![Fire_Stick-5_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015577081)\n\n6) Next is to download and install OptiSigns' APK app.\n\n- Open the **Amazon appstore** on your Fire TV.\n- Search for [Downloader](https://www.amazon.com/AFTVnews-com-Downloader/dp/B01N0BP507) and install the program.\n\n![mceclip1.png](https://support.optisigns.com/hc/article_attachments/1500015576341)\n\n- **Open Downloader and type in the URL: <https://links.optisigns.com/fireos>**\n- **Download the file through Downloader**. Once complete, you can install it by selecting “Files” within the interface.\n- Installed apps will appear on your Fire Stick’s main page along with the rest of your software.\n\n",
+      "start_index": 292,
+      "type": "file_citation",
+      "text_block_index": 0
+    },
+    {
+      "custom_metadata": {
+        "article_id": "360016313754",
+        "content_sha256": "94ecc442b575dbf6cfd668fbd5dc340a1f46eceb60398485d27785fb25277f17"
+      },
+      "document_uri": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6",
+      "end_index": 461,
+      "file_name": "how-to-install-an-apk-file-on-your-fire-tv.md",
+      "source": "# How to Install an APK file on your Fire TV\n\nArticle URL: https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV\n\nArticle ID: 360016313754\n\nLocale: en-us\n\nUpdated at: 2026-10-05T21:09:30Z\n\n---\n\nWe strongly recommend to install the Fire TV app via Amazon App store, that way Amazon will automatically keep your app up to date with new releases.\n\n**Steps to install APK on your Fire TV:**\n\n1) Go to your **Fire TV Stick’s settings page** located at the top of the home menu.\n\n![Fire_Stick-1.png](https://support.optisigns.com/hc/article_attachments/1500012107941)\n\n2) Scroll right and choose **My Fire TV**\n\n![Fire_Stick-2.png](https://support.optisigns.com/hc/article_attachments/1500012107921)\n\n3) Move down to **Developer Options**\n\n**![Fire_Stick-3.png](https://support.optisigns.com/hc/article_attachments/1500011806502)**\n\n4) Set **Apps from Unknown Sources** to ON.\n\n![Fire_Stick-4_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015575461)\n\n5) **Accept the warning message** about installing external apps\n\n![Fire_Stick-5_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015577081)\n\n6) Next is to download and install OptiSigns' APK app.\n\n- Open the **Amazon appstore** on your Fire TV.\n- Search for [Downloader](https://www.amazon.com/AFTVnews-com-Downloader/dp/B01N0BP507) and install the program.\n\n![mceclip1.png](https://support.optisigns.com/hc/article_attachments/1500015576341)\n\n- **Open Downloader and type in the URL: <https://links.optisigns.com/fireos>**\n- **Download the file through Downloader**. Once complete, you can install it by selecting “Files” within the interface.\n- Installed apps will appear on your Fire Stick’s main page along with the rest of your software.\n\n",
+      "start_index": 375,
+      "type": "file_citation",
+      "text_block_index": 0
+    },
+    {
+      "custom_metadata": {
+        "article_id": "360016313754",
+        "content_sha256": "94ecc442b575dbf6cfd668fbd5dc340a1f46eceb60398485d27785fb25277f17"
+      },
+      "document_uri": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6",
+      "end_index": 662,
+      "file_name": "how-to-install-an-apk-file-on-your-fire-tv.md",
+      "source": "# How to Install an APK file on your Fire TV\n\nArticle URL: https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV\n\nArticle ID: 360016313754\n\nLocale: en-us\n\nUpdated at: 2026-10-05T21:09:30Z\n\n---\n\nWe strongly recommend to install the Fire TV app via Amazon App store, that way Amazon will automatically keep your app up to date with new releases.\n\n**Steps to install APK on your Fire TV:**\n\n1) Go to your **Fire TV Stick’s settings page** located at the top of the home menu.\n\n![Fire_Stick-1.png](https://support.optisigns.com/hc/article_attachments/1500012107941)\n\n2) Scroll right and choose **My Fire TV**\n\n![Fire_Stick-2.png](https://support.optisigns.com/hc/article_attachments/1500012107921)\n\n3) Move down to **Developer Options**\n\n**![Fire_Stick-3.png](https://support.optisigns.com/hc/article_attachments/1500011806502)**\n\n4) Set **Apps from Unknown Sources** to ON.\n\n![Fire_Stick-4_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015575461)\n\n5) **Accept the warning message** about installing external apps\n\n![Fire_Stick-5_ADB.png](https://support.optisigns.com/hc/article_attachments/1500015577081)\n\n6) Next is to download and install OptiSigns' APK app.\n\n- Open the **Amazon appstore** on your Fire TV.\n- Search for [Downloader](https://www.amazon.com/AFTVnews-com-Downloader/dp/B01N0BP507) and install the program.\n\n![mceclip1.png](https://support.optisigns.com/hc/article_attachments/1500015576341)\n\n- **Open Downloader and type in the URL: <https://links.optisigns.com/fireos>**\n- **Download the file through Downloader**. Once complete, you can install it by selecting “Files” within the interface.\n- Installed apps will appear on your Fire Stick’s main page along with the rest of your software.\n\n",
+      "start_index": 464,
+      "type": "file_citation",
+      "text_block_index": 0
+    }
+  ],
+  "file_citation_count": 5,
+  "mapped": [
+    {
+      "article_id": "360016313754",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV",
+      "matched_by": "custom_metadata.article_id"
+    },
+    {
+      "article_id": "360016313754",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV",
+      "matched_by": "custom_metadata.article_id"
+    },
+    {
+      "article_id": "360016313754",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV",
+      "matched_by": "custom_metadata.article_id"
+    },
+    {
+      "article_id": "360016313754",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV",
+      "matched_by": "custom_metadata.article_id"
+    },
+    {
+      "article_id": "360016313754",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV",
+      "matched_by": "custom_metadata.article_id"
+    }
+  ],
+  "unmapped": []
+}
+```

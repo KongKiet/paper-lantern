@@ -297,7 +297,9 @@ def summarize(col: Collection, *, command: str, base_url: str, started_at: str, 
             "chunking": {"strategy": "white_space", **cfg},
             "indexed_files_confirmed_active_this_run": counts["selected_documents_confirmed_active"],
             "tracked_active_documents_in_manifest": tracked_active,
-            "provider_chunk_count": None,  # not exposed by the File Search Documents API
+            "provider_chunk_count": None,
+            "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or "
+                                           "per-store chunk count; no estimate is reported.",
         }
     if not ok and counts["selected"] < col.limit:
         summary["insufficient_articles"] = f"only {counts['selected']} of {col.limit} usable articles were selected"
