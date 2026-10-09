@@ -230,7 +230,7 @@ screenshots show commit `0afce58` on `main`.
 | [github-scheduled-run.png](evidence/github-scheduled-run.png) | Daily sync via `schedule` (pipeline 2026-10-08 07:30 UTC): restore success, exit 0, state pushed; added 1, updated 0, skipped 29, failed 0 |
 | [run-links.txt](evidence/run-links.txt) | Links to both GitHub Actions runs (#2 manual, #3 scheduled) |
 | [github-manual-artifact.zip](evidence/github-manual-artifact.zip), [github-scheduled-artifact.zip](evidence/github-scheduled-artifact.zip) | Downloaded log artifacts: `pipeline.log`, `last-run.json`, `last-successful-run.json` |
-| [offline-tests.txt](evidence/offline-tests.txt) | Offline test run: `Ran 55 tests ... OK` (UTF-16 encoded) |
+| [offline-tests.png](evidence/offline-tests.png) | Screenshot of the offline test run: `Ran 55 tests ... OK` |
 
 In the scheduled run, `added 1` is article `33940834613139`, recorded as
 `delta: new` in that run's `last-run.json` (scheduled artifact); the other 29
