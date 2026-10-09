@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-08T07:30:20Z",
-  "finished_at": "2026-10-08T07:30:33Z",
-  "elapsed_seconds": 12.6,
+  "started_at": "2026-10-09T07:28:29Z",
+  "finished_at": "2026-10-09T07:28:54Z",
+  "elapsed_seconds": 24.5,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -19,8 +19,8 @@
     "selected": 30,
     "scraped": 30,
     "added": 1,
-    "updated": 0,
-    "skipped": 29,
+    "updated": 2,
+    "skipped": 27,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -30,18 +30,50 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "360016313754",
+      "title": "How to Install an APK file on your Fire TV",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV",
+      "updated_at": "2026-10-09T06:17:18Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/how-to-install-an-apk-file-on-your-fire-tv.md",
+      "content_sha256": "481b90b8f6d3287ff74102f9767e2409b7890fbc852eb96dc4b60a480e337845",
+      "delta": "changed",
+      "scrape_status": "scraped",
+      "upload": "updated",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtoinstallanapkfileonyour-aqf7c69bdpyq",
+      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtoinstallanapkfileonyour-0ydi2js4k3cf",
+      "error": null
+    },
+    {
       "article_id": "33940834613139",
       "title": "What Do I Get With an OptiSigns Free Plan?",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/33940834613139-What-Do-I-Get-With-an-OptiSigns-Free-Plan",
-      "updated_at": "2026-10-07T22:30:11Z",
+      "updated_at": "2026-10-08T16:57:16Z",
       "source": "zendesk-api",
       "required": false,
       "markdown_path": "data/articles/what-do-i-get-with-an-optisigns-free-plan.md",
-      "content_sha256": "d9bf06bb5494fe8f130e91101808b73e7c96845d3d14631464e9db09a6c22c8c",
+      "content_sha256": "619a52f817a7697f795ff3719d016ad8fb45df4d25e0b0b7e54d2309b177e1ce",
+      "delta": "changed",
+      "scrape_status": "scraped",
+      "upload": "updated",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/whatdoigetwithanoptisignsfr-ebgxne3vfyy8",
+      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/whatdoigetwithanoptisignsfr-8sa90ilg9jhs",
+      "error": null
+    },
+    {
+      "article_id": "55447693635731",
+      "title": "How to Display Grafana Dashboards on OptiSigns",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/55447693635731-How-to-Display-Grafana-Dashboards-on-OptiSigns",
+      "updated_at": "2026-10-08T16:32:47Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/how-to-display-grafana-dashboards-on-optisigns.md",
+      "content_sha256": "22908ea3e538bae3aed5f8cb116323adc74b0ede7ac0d6701a82530546822f1b",
       "delta": "new",
       "scrape_status": "scraped",
       "upload": "added",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/whatdoigetwithanoptisignsfr-8sa90ilg9jhs",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtodisplaygrafanadashboar-s9xdfzmlqtnx",
       "replaced_document": null,
       "error": null
     },
@@ -74,22 +106,6 @@
       "scrape_status": "scraped",
       "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/powerpointresolutionsizefor-q0pynp8dcy7m",
-      "replaced_document": null,
-      "error": null
-    },
-    {
-      "article_id": "360016313754",
-      "title": "How to Install an APK file on your Fire TV",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016313754-How-to-Install-an-APK-file-on-your-Fire-TV",
-      "updated_at": "2026-10-05T21:09:30Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/how-to-install-an-apk-file-on-your-fire-tv.md",
-      "content_sha256": "94ecc442b575dbf6cfd668fbd5dc340a1f46eceb60398485d27785fb25277f17",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtoinstallanapkfileonyour-0ydi2js4k3cf",
       "replaced_document": null,
       "error": null
     },
@@ -478,22 +494,6 @@
       "error": null
     },
     {
-      "article_id": "360016252654",
-      "title": "Does OptiSigns offer Non-profit/Education discount?",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016252654-Does-OptiSigns-offer-Non-profit-Education-discount",
-      "updated_at": "2026-09-29T17:04:04Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/does-optisigns-offer-non-profit-education-discount.md",
-      "content_sha256": "b79a0d9977f8dfb1dda4644fba1d0ffa44845b25f2af8ab320271abd384a46c9",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/doesoptisignsoffernonprofit-1fcioztjk0ng",
-      "replaced_document": null,
-      "error": null
-    },
-    {
       "article_id": "360051014713",
       "title": "How to Use YouTube with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-Use-YouTube-with-OptiSigns",
@@ -519,7 +519,8 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 31,
-    "provider_chunk_count": null
+    "tracked_active_documents_in_manifest": 32,
+    "provider_chunk_count": null,
+    "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
 }
