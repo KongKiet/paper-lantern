@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-11T07:17:57Z",
-  "finished_at": "2026-10-11T07:18:09Z",
-  "elapsed_seconds": 12.0,
+  "started_at": "2026-10-12T07:27:26Z",
+  "finished_at": "2026-10-12T07:27:37Z",
+  "elapsed_seconds": 10.4,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -30,6 +30,22 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "360021855653",
+      "title": "What hardware and devices are supported?",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360021855653-What-hardware-and-devices-are-supported",
+      "updated_at": "2026-10-12T06:20:04Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/what-hardware-and-devices-are-supported.md",
+      "content_sha256": "ef2053f207d2d3cb521347e9c82c4e34b483eb1c076f329ed26cd4060b707853",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/whathardwareanddevicesaresu-rt7jegego27e",
+      "replaced_document": null,
+      "error": null
+    },
+    {
       "article_id": "29465595849235",
       "title": "List of Supported Cities for Weather Wall City Themes",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/29465595849235-List-of-Supported-Cities-for-Weather-Wall-City-Themes",
@@ -38,9 +54,9 @@
       "required": false,
       "markdown_path": "data/articles/list-of-supported-cities-for-weather-wall-city-themes.md",
       "content_sha256": "96f86d9cf63b2e3045bd8dfc048ce8e549315c865965fd5a25c247b4c78de4d0",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/listofsupportedcitiesforwea-kr057nszqbmk",
       "replaced_document": null,
       "error": null
@@ -478,22 +494,6 @@
       "error": null
     },
     {
-      "article_id": "55895814798739",
-      "title": "How to Display Salesforce Dashboards and Reports on OptiSigns",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/55895814798739-How-to-Display-Salesforce-Dashboards-and-Reports-on-OptiSigns",
-      "updated_at": "2026-09-29T19:44:32Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/how-to-display-salesforce-dashboards-and-reports-on-optisigns.md",
-      "content_sha256": "90d57f251e870261b0392215743393b649e3b533a775ff6b5aed7cd764a2c019",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtodisplaysalesforcedashb-3cg28ud7o374",
-      "replaced_document": null,
-      "error": null
-    },
-    {
       "article_id": "360051014713",
       "title": "How to Use YouTube with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-Use-YouTube-with-OptiSigns",
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 33,
+    "tracked_active_documents_in_manifest": 34,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
