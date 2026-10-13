@@ -6,7 +6,7 @@ Article ID: 55895814798739
 
 Locale: en-us
 
-Updated at: 2026-09-29T19:44:32Z
+Updated at: 2026-10-12T20:31:04Z
 
 ---
 
@@ -44,7 +44,7 @@ Updated at: 2026-09-29T19:44:32Z
 
 With the Salesforce app, you can display a Salesforce dashboard or report on any OptiSigns screen.
 
-Once set up, the picture updates automatically. Nobody has to log in on the screen, and no Salesforce credentials ever reach the device.
+Once set up, your dashboard or report updates automatically. You can show it in two way. Redraw, the default, draws the charts from your Salesforce data and needs no extra Salesforce license. Salesforce image shows the exact picture Salesforce draws and needs CRM analytics. Nobody has to log in on the screen, and no Salesforce credentials ever reach the device.
 
 ---
 
@@ -53,9 +53,9 @@ Once set up, the picture updates automatically. Nobody has to log in on the scre
 ## What You'll Need
 
 - An OptiSigns account with a [Pro Plus Plan or higher](https://www.optisigns.com/pricing)
-- A Salesforce org on **Enterprise**, **Performance** or **Unlimited** with the CRM Analytics add-on, or a **Developer Edition** org
+- A Salesforce org with API access. For Salesforce image, the org must also be **Enterprise**, **Performance** or **Unlimited** with the CRM Analytics add-on (or a **Developer Edition** org)
 - Admin rights in Salesforce, so you can create an External Client App
-- A dashboard or report you want to display
+- A dashboard or report you want to display. For Salesforce image, a report needs a chart and at least one row of data.
 - An OptiSigns-enabled device
 - A screen, set up and paired with OptiSigns
 
@@ -76,7 +76,7 @@ We will show how to find them in the article below.
 
 <a name="CheckYourSalesforceLicensingFirst"></a>
 
-## Check Your Salesforce Licensing First
+## Check Your Salesforce Licensing First (Salesforce Image Only)
 
 Salesforce renders these pictures through its own CRM Analytics service. An org without CRM Analytics is refused, and your screens will say **CRM Analytics required**. This is the most common reason the app does not work, so it is worth confirming before you set anything up.
 
@@ -95,13 +95,13 @@ If none of them is there, your org does not have CRM Analytics. It is a paid add
 |  |
 | --- |
 | **IMPORTANT** |
-| CRM Analytics is sold as an add-on for Enterprise, Performance and Unlimited Editions, and is included in Developer Edition. It is not available on Professional, Starter or Essentials, so those editions cannot use this app. |
+| CRM Analytics is available as an add-on for Enterprise, Performance and Unlimited Editions, and is included in Developer Edition. Professional Edition can only get it through a specific contract with Salesforce. |
 
 <a name="EnableTheSlackApps"></a>
 
 ### Enable the Slack Apps
 
-Salesforce also requires **Slack for Salesforce** and **CRM Analytics for Slack** to be enabled for the image service to work.
+Salesforce image also requires **Slack for Salesforce** and **CRM Analytics for Slack** to be enabled for the image service to work.
 
 Go to **Setup**, then **Slack Apps Setup**. In section 2, review and accept the terms and conditions. In section 3, enable **CRM Analytics for Slack** — it has its own page, so open it and click **Agree and enable Slack integration**.
 
@@ -120,7 +120,7 @@ Three different people can be involved, and it helps to know which is which befo
 
 - **The admin who creates the External Client App** - Needs the **Create, edit, and delete External Client Apps** permission. Does not need access to any dashboard.
 - **The Run As user** - An active user whose profile or permission set has **API Enabled**. Never opens a browser. A dedicated integration user is ideal, and an **API Only User** is fine for this role.
-- **The user who signs in to OptiSigns** - A real, licensed Salesforce user who can view every dashboard and report you intend to display. This must **not** be an API-only user, because OptiSigns needs to open a session as this person. Your screens show exactly the data this user can see.
+- **The user who signs in to OptiSigns** - A real, licensed Salesforce user who can view every dashboard and report you intend to display. This must **not** be an API-only user, because this person signs in to Salesforce in a browser to approve OptiSigns. OptiSigns needs to open a session as this person. Your screens show exactly the data this user can see.
 
 ---
 
@@ -168,10 +168,10 @@ For **Callback URL**, enter exactly this:
 https://smallapp.optisigns.com/api/salesforce/integration/user-auth/callback
 ```
 
-For **OAuth Scopes**, move these three across to **Selected OAuth Scopes**:
+For **OAuth Scopes**, move these across to **Selected OAuth Scopes**:
 
 - **Manage user data via APIs (api)**
-- **Manage user data via Web browsers (web)**
+- **Manage user data via Web browsers (web) (only needed for Salesforce image)**
 - **Perform requests at any time (refresh\_token, offline\_access)**
 
 Under **Flow Enablement**, tick **Enable Client Credentials Flow**. Leave the other flows unticked.
@@ -212,7 +212,7 @@ Leave the rest of the tab as it is, then click **Save**.
 |  |
 | --- |
 | **NOTE** |
-| The "Run As" user needs no dashboard access at all. OptiSigns uses it to ask Salesforce to recalculate a dashboard before each picture is taken, so your screens show current numbers even when nobody has opened that dashboard in Salesforce. Reports are run fresh every time and do not need it. |
+| The "Run As" user needs no dashboard access at all. OptiSigns uses it to ask Salesforce to recalculate a dashboard at each update, so your screens show current numbers even when nobody has opened that dashboard in Salesforce. Reports are run fresh every time and do not need it. |
 
 <a name="CopyTheConsumerKeyAndSecret"></a>
 
@@ -280,24 +280,35 @@ This is a one-time step. Afterwards OptiSigns keeps the connection alive on its 
 
 Go to **Files/Assets**, click **Apps**, and choose **Salesforce**.
 
-![OptiSigns Salesforce app form filled in, with a connection and a dashboard selected](https://support.optisigns.com/hc/article_attachments/55908507931539)
+![Salesforce app form with Connect, Content and Display sections, Display mode set to Redraw](https://support.optisigns.com/hc/article_attachments/56348533035923)
 
-Fill in the form:
+Fill in the form. There are three sections: **Connect**, **Content**, and **Display**. Click each respective drop down to activate them.
+
+**Connect**
 
 - **Name** - What the asset is called in your Files/Assets list. This will not appear on your screens.
 - **Salesforce Connection** - The Salesforce connection. If you have multiple connections, choose which one to use from the dropdown.
+
+**Content**
+
+- **Display Mode** - **Redraw** (the default) rebuilds the charts from your Salesforce data, with no extra Salesforce license. **Salesforce image** shows the exact picture Salesforce draws and needs CRM Analytics.
 - **Content Type** - **Dashboard** or **Report**.
 - **Dashboard** or **Report** - Picked from your organization's own list. The list shows what the signed-in user can see.
-- **Update Interval** - How often OptiSigns takes a fresh picture, in seconds. Between 5 minutes and 12 hours; the default is 10 minutes.
+
+**Display**
+
+- **Update Interval** - How often OptiSigns refreshes the dashboard or report from Salesforce, in seconds. Between 5 minutes and 12 hours; the default is 10 minutes.
 - **Theme** - **Dark**, **Light** or **High Contrast**.
-- **Image fit** - **Fit** (the default) shows the whole picture, adding bars if its shape does not match the screen. **Fill** covers the screen and crops the edges. **Stretch** fills the screen and distorts the picture.
+- **Show values on charts - Redraw** only. When checked, shows the values on the charts.
+  **![Salesforce app form with Display mode set to Salesforce image, showing the Image fit option](https://support.optisigns.com/hc/article_attachments/56348506660627)**
+- **Image fit** - **Salesforce Image** only. **Fit** (the default) shows the whole picture, adding bars if its shape does not match the screen. **Fill** covers the screen and crops the edges. **Stretch** fills the screen and distorts the picture.
 
 Click **Save**, then assign the asset to a screen.
 
 |  |
 | --- |
 | **NOTE** |
-| A report is rendered as its saved chart, so it needs a chart and at least one row of data. Tabular reports cannot be displayed. OptiSigns checks this against your org when you press **Save** and tells you if the report will not work, rather than letting the screen fail later. |
+| With Salesforce image, reports is rendered as its saved chart, so it needs a chart and at least one row of data. Tabular reports cannot be displayed. OptiSigns checks this against your org when you press **Save** and tells you if the report will not work, rather than letting the screen fail later. Redraw shows any report, as a table, a bar chart, or a single number. |
 
 ---
 
@@ -305,11 +316,13 @@ Click **Save**, then assign the asset to a screen.
 
 ## How OptiSigns Renders Your Dashboard
 
-OptiSigns does not embed Salesforce and does not run a browser on your screen. It asks Salesforce to draw the dashboard, and shows that picture. The screen receives only a short-lived link to the image — no token, no org address, nothing that could be used to reach your data.
+With Redraw selected under Display mode, OptiSigns reads the results of your dashboard or report through Salesforce's standard API as the user who signed in, and draws the charts on the screen in the theme you chose. The screen receives only the chart data (labels and numbers), with no token and no org address.
+
+With Salesforce image selected, OptiSigns does not embed Salesforce and does not run a browser on your screen. It asks Salesforce to draw the dashboard, and shows that picture. The screen receives only a short-lived link to the image. No tokens, no org addresses, or any other information that could be used to reach your data is saved.
 
 Nothing is written back to your org. The app only reads, plus the standard request asking Salesforce to recalculate its own dashboard.
 
-The shape of the picture is decided in Salesforce, not in OptiSigns.
+The shape of the picture from Salesforce image is decided in Salesforce, not in OptiSigns.
 
 - A dashboard about **two rows tall** fills a 16:9 TV from edge to edge.
 - A dashboard with **many rows** comes back tall and narrow, so it is shown whole with bars at the sides and the tiles look smaller. Splitting it across two dashboards usually looks better.
@@ -328,11 +341,11 @@ If a refresh fails, the screen keeps the last good picture and shows how long ag
 
 #### My screen says "CRM Analytics required." What does that mean?
 
-Salesforce refused to draw the picture for licensing reasons. Your org either does not have a CRM Analytics license, or does not have **Slack for Salesforce** and **CRM Analytics for Slack** enabled. This is a change your Salesforce Administrator has to make.
+Salesforce refused to draw the picture for licensing reasons. Your org either does not have a CRM Analytics license, or does not have **Slack for Salesforce** and **CRM Analytics for Slack** enabled. This is a change your Salesforce Administrator has to make. Or switch the app's Display mode to Redraw, which does not need CRM Analytics.
 
 <a name="MyScreenSaysSignInRequiredOrNeedsReconnectingWhatDoIDo"></a>
 
-### My screen says "Sign-in required, or Needs reconnecting". What do I do?
+#### My screen says "Sign-in required, or Needs reconnecting". What do I do?
 
 The Salesforce sign-in was never completed, or Salesforce has refused it since. That usually means the login was revoked, the user was deactivated or frozen, an API-only user was used by mistake, or your admin changed who is allowed to authorise the app.
 
@@ -340,49 +353,51 @@ Go to **Integrations**, open the **Salesforce** tab, and use the connection row'
 
 <a name="MyScreenSaysASalesforceSecurityPolicyBlockedTheImageWhy"></a>
 
-### My screen says a Salesforce security policy blocked the image. Why?
+#### My screen says a Salesforce security policy blocked the image. Why?
 
-Your org has a policy that will not allow a session to be opened without a person present. The usual causes are step-up authentication on report exports, a High Assurance session requirement on that user's profile, or Login IP Ranges that do not include our servers.
+With Salesforce image, your org has a policy that will not allow a session to be opened without a person present. The usual causes are step-up authentication on report exports, a High Assurance session requirement on that user's profile, or Login IP Ranges that do not include our servers.
 
 All three are settings inside your Salesforce, so your Salesforce admin will need to permit it for the user who signed in. Contact OptiSigns support and we can tell you exactly what your screens are reporting.
 
 <a name="OptiSignsSaysEnterAValidMyDomainURLWhatIsWrong"></a>
 
-### OptiSigns says "Enter a valid My Domain URL." What is wrong?
+#### OptiSigns says "Enter a valid My Domain URL." What is wrong?
 
 You have most likely pasted the address from your browser bar, which ends in lightning.force.com. OptiSigns needs the login host, which ends in my.salesforce.com. Click your avatar in Salesforce to see it.
 
 <a name="SignInFailsWithRedirectUriMismatchOnABlankPageHowDoIFixIt"></a>
 
-### Sign-in fails with "redirect\_uri\_mismatch" on a blank page. How do I fix it?
+#### Sign-in fails with "redirect\_uri\_mismatch" on a blank page. How do I fix it?
 
 The **Callback URL** on your External Client App does not exactly match the one OptiSigns uses. Open the app in Salesforce and check it character for character against the URL in [Set Up OAuth](#SetUpOAuth) above — watch for a trailing slash or a stray space.
 
 <a name="OptiSignsRefusedMyReportWhenIPressedSaveWhy"></a>
 
-### OptiSigns refused my report when I pressed Save. Why?
+#### OptiSigns refused my report when I pressed Save. Why?
 
 Salesforce renders a report as its saved chart, so the report needs a chart on it and at least one row of data. Tabular reports can never carry a chart and cannot be displayed.
 
 In Salesforce, open the report, choose **Edit**, then **Add Chart**, and save it. Then save the OptiSigns asset again.
 
+Or switch the app's Display mode to Redraw, which shows any report as a table, a bar chart, or a single number.
+
 <a name="CanIConnectASandboxOrg"></a>
 
-### Can I connect a sandbox org?
+#### Can I connect a sandbox org?
 
 Yes. There is nothing extra to switch on — paste the sandbox's own My Domain URL, which looks like `https://yourcompany--sandbox.sandbox.my.salesforce.com`. Salesforce recognises it from the address.
 
 <a name="DoIHaveToUseSlack"></a>
 
-### Do I have to use Slack?
+#### Do I have to use Slack?
 
-No. Salesforce requires the two Slack apps to be **enabled** in your org because its image service is part of that integration, but nobody needs a Slack account and nothing is posted to Slack.
+No. Redraw does not use Slack apps at all. For Salesforce image, Salesforce requires the two Slack apps to be **enabled** in your org because its image service is part of that integration, but nobody needs a Slack account and nothing is posted to Slack.
 
 <a name="MyDashboardIsShowingOldNumbersWhy"></a>
 
 ### My dashboard is showing old numbers. Why?
 
-A Salesforce dashboard shows the results from the last time it was run, so OptiSigns asks Salesforce to recalculate it before taking each picture. That request is made by the **Run As** user on your External Client App, so check that one is set — see [Set the Run As User](#SetTheRunAsUser).
+A Salesforce dashboard shows the results from the last time it was run, so OptiSigns asks Salesforce to recalculate it at each update. That request is made by the **Run As** user on your External Client App, so check that one is set — see [Set the Run As User](#SetTheRunAsUser).
 
 Reports are not affected: Salesforce runs a report fresh every time it draws one.
 
@@ -390,6 +405,8 @@ Reports are not affected: Salesforce runs a report fresh every time it draws one
 
 ### Will my dashboard data be stored anywhere?
 
-The picture is stored so your screens can load it quickly, and it is replaced at every update. Your screens receive only a short-lived link to that picture. No Salesforce credentials are stored on the device, and nothing is written back to your Salesforce org.
+To load quickly, your screens use a copy stored by OptiSigns. With Salesforce image Display mode, the copy is the picture, kept in OptiSigns' cloud storage. Each app keeps its few most recent pictures, and older ones are deleted automatically. With Redraw, the copy is the chart data, kept for up to 24 hours. Your screens receive only that picture or chart data.
+
+No Salesforce credentials are stored on the device, and nothing is written back to your Salesforce org.
 
 ---
