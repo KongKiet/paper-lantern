@@ -30,12 +30,15 @@
     "360041222994": "how-to-use-the-countup-app.md",
     "360043621953": "how-to-create-and-use-nested-playlists.md",
     "360046859534": "how-to-use-the-twitch-app.md",
+    "360048914673": "edit-screen-what-does-each-option-do.md",
     "360050244454": "how-to-use-the-trello-app.md",
     "360050665253": "how-to-use-the-onedrive-app.md",
     "360050665413": "how-to-use-the-dropbox-app.md",
     "360051014713": "how-to-use-youtube-with-optisigns.md",
     "360056086653": "how-to-change-time-zone-on-your-fire-stick-device.md",
+    "360060919453": "how-to-use-the-zendesk-app.md",
     "36911639377683": "how-to-use-optisigns-with-microsoft-teams-rooms.md",
+    "40671590645651": "how-to-play-licensed-background-music-on-digital-signs-with-optisound.md",
     "4404053129619": "how-to-use-the-microsoft-teams-meeting-app.md",
     "4407335862931": "how-to-use-the-slack-app.md",
     "4408946045715": "how-to-integrate-bonusly-digital-signage-with-optisigns.md",
@@ -45,6 +48,7 @@
     "4417940565139": "how-to-display-microsoft-teams-chat-on-optisigns.md",
     "44650391786131": "kiosk-setup-hub.md",
     "4529298306963": "how-to-use-microsoft-excel-online-with-optisigns.md",
+    "49039295567891": "chromeos-pwa-instructions.md",
     "5119724468371": "how-to-use-the-notion-app.md",
     "55447693635731": "how-to-display-grafana-dashboards-on-optisigns.md",
     "55895814798739": "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md",
@@ -53,5 +57,5 @@
     "8399990754195": "how-to-display-a-smartsheet-report-on-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-10-14T06:13:21Z"
+  "updated_at": "2026-10-15T05:57:06Z"
 }
