@@ -6,117 +6,124 @@ Article ID: 360041222994
 
 Locale: en-us
 
-Updated at: 2026-10-01T17:24:51Z
+Updated at: 2026-10-15T16:20:51Z
 
 ---
 
-### In this article, we'll explain how to use the CountUp app on OptiSigns.
+### In this article, we'll show how to display a customizable count up timer on your digital signs with OptiSigns.
 
-- [What You'll Need](#WhatYouNeed)
-- [Creating a CountUp Asset](#Creating)
+- [What You'll Need](#WhatYoullNeed)
+- [Creating a CountUp App](#CreatingACountUpApp)
   - [Theme Settings](#ThemeSettings)
-  - [Advanced Settings](#Advanced)
+  - [Advanced](#Advanced)
+- [Deploying a CountUp App](#DeployingACountUpApp)
 
-The CountUp (or Count Up) app is a simple way to display a customizable count up clock for any occasion.
+With the CountUp app, it's possible to display a timer that counts up from any date and time you choose. Show how long it's been since your grand opening, your last safety incident, or a project kickoff, and let your screens keep the count running.
 
-![](https://support.optisigns.com/hc/article_attachments/46720907995667)
+![CountUp App example](https://support.optisigns.com/hc/article_attachments/46720907995667)
 
-The clock can display any title you like, and when it goes off, can display any message you like. Here, we'll show how to create one. Let's get started.
+Let's get started.
 
 ---
 
-<a name="WhatYouNeed"></a>
+<a name="WhatYoullNeed"></a>
 
 ## What You'll Need
 
-- An [**OptiSigns-capable device**](https://support.optisigns.com/hc/en-us/articles/360021855653-What-hardware-and-devices-are-supported)
-- An OptiSigns [**Standard plan or higher**](https://www.optisigns.com/pricing)
-- A screen, [**set up and paired**](https://support.optisigns.com/hc/en-us/articles/18823504383891-OptiSigns-Getting-Started-Guide)
+- An OptiSigns account - [**Standard Plan** or higher](https://www.optisigns.com/pricing)
+- An [OptiSigns-enabled device](https://support.optisigns.com/hc/en-us/articles/360021855653)
+- A screen, set up and paired with OptiSigns ([see our Getting Started guide](https://support.optisigns.com/hc/en-us/articles/18823504383891))
 
 ---
 
-<a name="Creating"></a>
+<a name="CreatingACountUpApp"></a>
 
-## Creating a CountUp Asset
+## Creating a CountUp App
 
-From the OptiSigns portal, go to **Files/Assets** **→ Apps:**
+From the OptiSigns portal, go to **Files/Assets** and select **Apps**.
 
-![](https://support.optisigns.com/hc/article_attachments/46720888202259)
+![OptiSigns Files/Assets page with the Apps button highlighted](https://support.optisigns.com/hc/article_attachments/56449812007443)
 
-On the Apps menu, select **CountUp:**
+Search for **CountUp** and select the **CountUp** app.
 
-![](https://support.optisigns.com/hc/article_attachments/46720907996563)
+![Add App dialog searched for CountUp, with the CountUp app card highlighted](https://support.optisigns.com/hc/article_attachments/56449812008339)
 
-The below screen should open up:
+The **Count Up** app settings will open. Any changes you make show up right away in the **Preview** on the right, which you can switch between **Landscape** and **Portrait**. Fill in the following:
 
-![](https://support.optisigns.com/hc/article_attachments/46720888203283)
+- **Name** - The name of your CountUp asset. This is for organizational purposes within OptiSigns only and will not display on your screens.
+- **Text** - The title displayed above the timer, such as **Days Since Our Grand Opening**.
+- **Start Time** - The date and time the timer counts up from.
+- **Timer Style** - How the timer looks. Choose from **Flip**, **Basic**, **Ring** or **Slide**.
+- **Days only** - Check this box to show only the number of days, without hours, minutes and seconds.
+- **Theme** - A preset color scheme for the timer. Choose from **Light**, **Dark**, **Sky**, **Carrot**, **Flamingo**, **Forest**, **Grape**, **Meadow**, **Neapolitan**, **Pineapple**, **Urban** or **Watermelon**.
 
-These are the options, and what they do. Any edits made to these options should be automatically reflected in the **Preview** pane on the right. The **Preview** can be displayed in either **Landscape** or **Portrait** format.
+![Count Up app form with the Name, Text, Start Time, Timer Style and Theme fields filled in](https://support.optisigns.com/hc/article_attachments/56449838854035)
 
-- **Name:** The name of the CountUp asset. This is for saving the asset in OptiSigns, and the text entered here will not appear on the asset itself.
-- **Text:** The text to be displayed on the CountUp asset while it counts down. By default, this says "OptiSigns Timer," and it is in this area this message will be displayed.
-- **End Time:** When selected, will bring up a calendar:
+Click the **Start Time** field to open the calendar. Pick a date, set the hour, minute and AM/PM, then hit **Apply**.
 
-![](https://support.optisigns.com/hc/article_attachments/46720888203539)
-
-- This allows you to choose the precise date and time for the countup to be completed.
-- **Message:** The message to be displayed at the end of the countup.
-- **Timer Style:** Lets you choose the type of Timer to display. Choose between **Flip**, **Basic**, **Ring**, and **Slide:**
-  ![](https://support.optisigns.com/hc/article_attachments/46720907997587)
-  Specific differences between these can be seen in the Preview panel.
-- **Days Only:** Check this box to only show how many days are left on your countup timer.
-- **Theme:** Lets you change between a number of basic themes. Scroll down for more. Their specifics can be seen in the Preview panel.
+![Start Time calendar with a date selected and the Apply button highlighted](https://support.optisigns.com/hc/article_attachments/56449838856723)
 
 <a name="ThemeSettings"></a>
 
-### **Theme Settings**
+### Theme Settings
 
-![](https://support.optisigns.com/hc/article_attachments/46720888204179)
+Click **Theme Settings** to fine-tune the look of your timer:
 
-- **Primary Color:** Determines the background color. Can be chosen with Hex Code or via color picker:
-  ![](https://support.optisigns.com/hc/article_attachments/46720888204819)
-- **Secondary Color:** Determines the text color. Can be chosen with Hex Code or via color picker.
-- **Font Size:** Choose between Default Font Size, or Custom. When Custom is selected, will provide a new option: **Custom Font Size**.
-  **![](https://support.optisigns.com/hc/article_attachments/46720888206099)**
-  - **Custom Font Size:** Choose your font size.
-- **Transparency:** Slider which allows the transparency of the image to be changed. *NOTE*: Does not work on AppleTV right now.
+- **Primary Color** - The background color. Enter a hex code or click the swatch to use the color picker.
+- **Secondary Color** - The text color. Enter a hex code or click the swatch to use the color picker.
+- **Font Size** - Keep **Default**, or choose **Custom** and enter your own size.
+- **Transparency** - Drag the slider to make the app's background more transparent.
 
 |  |
 | --- |
-| For full app transparency, especially when embedding on Designer or Split Screen apps, please set Background Image to 'Transparent' in Edit Screen of your devices. |
+| **NOTE** |
+| Changing any Theme Setting switches **Theme** to **Custom**. |
+
+![Theme Settings section expanded, showing Primary Color, Secondary Color, Font Size and Transparency](https://support.optisigns.com/hc/article_attachments/56449812010771)
+
+|  |
+| --- |
+| **TIP** |
+| For full transparency when using the app in a Designer layout or a [Split Screen](https://support.optisigns.com/hc/en-us/articles/360026559573), set **Background Image** to **Transparent** in **Edit Screen** for your device. |
 
 <a name="Advanced"></a>
 
-### **Advanced Settings**
+### Advanced
 
-Expandable panel. Click this for even more options:
-![](https://support.optisigns.com/hc/article_attachments/46720888206739)
+Click **Advanced** for more options:
 
-- **Recurring:** When checked, enables recurring events to be repeated at selected intervals. Opens up more options:
-  ![](https://support.optisigns.com/hc/article_attachments/46720888206995)
-  - **Repeat Every:** Lets you choose how often the countup repeats. You can adjust this number, and choose from **Day, Week, Month,** or **Year**. When **Week, Month,** or **Year** is chosen, it will show what days it will **Repeat On**.
+![Advanced section expanded with Recurring checked, showing Repeat Every, Ends, Show Date, Background Image and Language](https://support.optisigns.com/hc/article_attachments/56449812011923)
 
-    **Week:**
-    ![](https://support.optisigns.com/hc/article_attachments/46720888207251)
-    **Month:**
-    ![](https://support.optisigns.com/hc/article_attachments/46720888207507)
-    **Year:**
-    **![](https://support.optisigns.com/hc/article_attachments/46720888207635)**
-  - **Ends:** Lets you choose when a recurring countup timer will end. This can be **Never**, **On**, or **After**.
-    - **Never:** The countup timer will repeat as per above instructions and will not stop recurring until asset is changed.
-    - **On:** Allows you to set a specific date at which time the countup timer will stop recurring.
-    - **After:** Allows you to set a specific number of recurrences after which the timer will stop recurring.
+- **Recurring** - Check this box to restart the count on a regular schedule. Set **Repeat Every** to a number of **Days**, **Weeks**, **Months** or **Years**, then choose when it **Ends**:
+- **Never** - The timer keeps repeating.
+- **On** - The timer stops repeating on a date you choose.
+- **After** - The timer stops repeating after a set number of times.
+- **Show Date** - Check this box to show the date on the timer, then pick a **Date Format**.
+- **Background Image** - Keep **Default**, or choose **Custom** and hit **Choose** under **Choose Photo** to use an image from your Files/Assets. A custom background image replaces the background color.
+- **Language** - The language for the timer labels and date. Choose from **English**, **Deutsch (German)**, **Español (Spanish)**, **Français (French)**, **Italiano (Italian)**, **Nederlands (Dutch)**, **Português (Portuguese)**, **Svenska (Swedish)** or **中文 (Simplified Chinese)**.
 
-      |  |
-      | --- |
-      | **NOTE** |
-      | When setting a recurring element, the Message element will display until 12:00 AM the next day before the countup timer starts again. |
-- **Show Date:** When checked, will show the date on the countup timer. Also provides **Date Format** option.
-  **![](https://support.optisigns.com/hc/article_attachments/46720908003347)**
-  - **Date Format:** Allows you to choose a format for the displayed date.
-- **Background Image:** Allows you to choose between a **Default** Background Image and a **Custom** one. Selecting **Custom** will enable the **Choose Photo** option.
-  ![](https://support.optisigns.com/hc/article_attachments/46720908004499)
-  - **Choose Photo:** Lets you use an existing OptiSigns image asset as a Background Image for your countup timer. This will override any other Background Image options, including Background Color, etc.
-- **Language:** Choose the language to display clock details such as **Hour**, **Minute**, and **Date** from a variety of language options. These include English, Deutsch(German) ,Español(Spanish), Français(French), Português(Portuguese), Svenska(Swedish), Italiano(Italian), Nederlands(Dutch), and 中文(Chinese)
+Now hit **Save**. You'll have created a CountUp app, and it will appear in your **Files/Assets**.
 
-After you've configured the CountUp app to your liking, hit **Save**. Your CountUp app will appear as an Asset in OptiSigns, and it can now be directly assigned to a screen or used in a Playlist. This asset can then be edited at any time from the Files/Assets tab.
+![New CountUp asset shown in Files/Assets](https://support.optisigns.com/hc/article_attachments/56449812012307)
+
+---
+
+<a name="DeployingACountUpApp"></a>
+
+## Deploying a CountUp App
+
+To push your CountUp app to a screen, go to the **Screens** tab, then click **Edit** next to the screen you want to display it on.
+
+![Screens list with the Edit button highlighted on a screen row](https://support.optisigns.com/hc/article_attachments/56449812012691)
+
+The **Edit Screen** pop-up will appear. Select **Asset** under **Content Type**, then hit **Change** next to **Selected Asset**.
+
+![Edit Screen dialog with Content Type set to Asset and the Change button highlighted](https://support.optisigns.com/hc/article_attachments/56449838861075)
+
+The **Select Asset** window will open. Search for your CountUp app, click it, then hit **Select**.
+
+![Select Asset dialog with the CountUp asset selected](https://support.optisigns.com/hc/article_attachments/56449838864403)
+
+Back in **Edit Screen**, hit **Save**. Your CountUp timer will now display on your screen.
+
+Your CountUp app can also be displayed in a Playlist or Schedule, or as one zone of a [Split Screen](https://support.optisigns.com/hc/en-us/articles/360026559573).
