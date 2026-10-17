@@ -6,93 +6,143 @@ Article ID: 360050665413
 
 Locale: en-us
 
-Updated at: 2026-10-01T21:20:35Z
+Updated at: 2026-10-16T16:32:20Z
 
 ---
 
-### In this article, we'll show you how to use images and videos from your Dropbox on your digital signs.
+### In this article, we'll show how to play the images and videos in a Dropbox folder on your digital signs with OptiSigns.
 
-With OptiSigns, you can quickly put images, videos from your Dropbox on your digital signage screens by using the Dropbox app. The app will create a playlist for files in your Dropbox, any changes, additions or removals will sync automatically. This allows you to quickly update, share contents within your team without needing to login to OptiSigns portal.
+- [What You'll Need](#WhatYoullNeed)
+- [Creating a Dropbox App](#CreatingADropboxApp)
+  - [Advanced](#Advanced)
+  - [Checking and Refreshing a Sync](#CheckingAndRefreshingASync)
+- [Deploying a Dropbox App](#DeployingADropboxApp)
+- [Supported File Types](#SupportedFileTypes)
+- [Limitations](#Limitations)
 
-With the OptiSigns Dropbox app you can:
+With the Dropbox app, it's possible to play the images and videos in a Dropbox folder on your screens. The app turns the folder into a playlist and keeps it in sync, so when you add, change or remove a file in Dropbox, your screens update too. Your team can update what's on screen without ever signing in to OptiSigns.
 
-- Connect to Dropbox and choose a folder with images and videos
-- Choose the timing, duration of your images/videos
-- Choose transition effect between your files
-
-## **Let's jump in and get started:**
-
-First, you will need to have your screens set up and paired. For more information on how to do that, click [here](https://www.optisigns.com/blog/how-to-set-up-digital-signs-with-optisigns-and-amazon-fire-tv).
-
-Then log on to our portal: <https://app.optisigns.com/>
-
-Within the OptiSigns portal, go to **Files/Assets > Apps**, then find the Dropbox app.
-
-![Files/Assets page with the Files/Assets tab and the Apps button highlighted](https://support.optisigns.com/hc/article_attachments/55999055485075)
-
-Click Dropbox app:
-
-![Add App dialog searched for Dropbox, with the Dropbox app card highlighted](https://support.optisigns.com/hc/article_attachments/55999066624659)
-
-Click "Sign in with Dropbox".
-
-![Dropbox dialog with the Sign in with Dropbox button highlighted](https://support.optisigns.com/hc/article_attachments/55999055488915)
-
-Sign in and allow OptiSigns to access your Dropbox.
-
-![Dropbox sign-in page asking to link your Dropbox account with OptiSigns Digital Signage](https://support.optisigns.com/hc/article_attachments/360075537234)
-
-Select the folder you want to use:
-
-![Dropbox file chooser with a folder checked and the Choose button highlighted](https://support.optisigns.com/hc/article_attachments/55999066628627)
-
- Enter information for your Dropbox app
-
-![Dropbox app settings: Name, Folder, Transition Effects, Transition Speed, Duration for Image, Max Video Duration](https://support.optisigns.com/hc/article_attachments/55999055490195)
-
-- Name: Name of your Dropbox App, this is the name of the wall in your asset list. It will **not** be displayed on your screens.
-- Transition Effects: Transition effect between your images, videos in the folder.
-- Transition Speed: How fast you want your transitions to animate.
-- Duration for Image: How long each image should show on your screen. The default is 10 seconds.
-- Max Video Duration: Default is 0, which means the app will play each video till the end. You can set it to some other values to cut off long videos. For example, if you set this value to 60 seconds and a video is longer than 60s, it will get cut off at 60s to play next item. If a video is shorter than 60s, it will play the duration of the video.
-
-Click **Advanced** to see more settings:
-
-![Dropbox app settings with the Advanced section expanded, showing Force Sync Interval set to 12](https://support.optisigns.com/hc/article_attachments/55999066631443)
-
-- Force Sync Interval: How often, in hours, OptiSigns runs a full sync of your Dropbox folder. Changes in your folder are normally picked up automatically; the forced sync is a scheduled refresh that catches anything that was missed. The default is 12 hours, and you can set any value from 1 to 24. Use a lower value if changes need to reach your screens sooner.
-
-Click **Save**.
-Depending on how many files you have in the folder, **it may take a moment** to sync to OptiSigns, as all the files will be synced and copied to our servers.
-
-Files will be sorted and played by name. You can control the order of playback by changing the name of the files in your Dropbox.
-
-![Dropbox folder with files named 1, 2, 3 so they play in that order](https://support.optisigns.com/hc/article_attachments/360076677073)
+Let's get started.
 
 ---
 
-## **That's all! Congratulations!**
+<a name="WhatYoullNeed"></a>
 
-You have created your Dropbox app.
-You can change the wall any time by clicking on it in the Files/Assets tab.
+## What You'll Need
 
-You can assign the newly created app to your screen by going to Screens, click Edit screens and assign the wall to screens that you want.
+- An OptiSigns account - [**Standard Plan** or higher](https://www.optisigns.com/pricing)
+- A Dropbox account with access to the folder you want to show
+- An [OptiSigns-enabled device](https://support.optisigns.com/hc/en-us/articles/360021855653)
+- A screen, set up and paired with OptiSigns ([see our Getting Started guide](https://support.optisigns.com/hc/en-us/articles/18823504383891))
 
-You can put the created Dropbox app in a Playlist or Schedule too.
+---
 
-**Notes:**
+<a name="CreatingADropboxApp"></a>
 
-When files are changed, added or removed in your Dropbox folder, OptiSigns will automatically sync the changes. You can check when the last change was synced and which file was synced last by opening the app modal again.
+## Creating a Dropbox App
 
-You can also force a refresh and sync by clicking the Refresh Data button.
+From the OptiSigns portal, go to **Files/Assets** and select **Apps**.
 
-![Saved Dropbox app with the Refresh Data button and the last sync time](https://support.optisigns.com/hc/article_attachments/55999055494547)
+![OptiSigns Files/Assets page with the Apps button highlighted](https://support.optisigns.com/hc/article_attachments/56487883115411)
 
-**Limitations:**
+Search for **Dropbox** and select the **Dropbox** app.
 
-- Only image and video files are supported. If there are other files in the folder, they will be ignored.
-- To ensure good performance of the app, the maximum size is 100MB per file, and the maximum number of files supported in a folder is 200. If you have big video files, it's better to upload directly to OptiSigns; and if you have more than 200 files, you can split them up in multiple Dropbox folders.
-- The Dropbox app with Teams features requires a workaround to use properly, as it uses a different API from personal accounts. To get around this limitation:
-  - **Create a personal folder** within your Dropbox account and upload your content there. You should then be able to create and access it within the **OptiSigns portal**.
+![Add App dialog searched for Dropbox, with the Dropbox app card highlighted](https://support.optisigns.com/hc/article_attachments/56487883117331)
 
-If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](mailto:support@optisigns.com)
+Click **Sign in with Dropbox**.
+
+![Dropbox app window with the sign-in button highlighted](https://support.optisigns.com/hc/article_attachments/56487855829523)
+
+Sign in to Dropbox and allow OptiSigns to access your Dropbox.
+
+![Dropbox sign-in page for linking OptiSigns Digital Signage](https://support.optisigns.com/hc/article_attachments/360075537234)
+
+Choose the folder you want to show on your screens:
+
+![Dropbox folder chooser with a folder checked and the Choose button](https://support.optisigns.com/hc/article_attachments/55999066628627)
+
+The Dropbox app settings will open.
+
+![Dropbox app form showing the account badge, Name, Folder, transition and duration fields](https://support.optisigns.com/hc/article_attachments/56487883123475)
+
+Fill them in:
+
+- **Name** - The name of your Dropbox asset. This is for organizational purposes within OptiSigns only and will not display on your screens.
+- **Folder** - The Dropbox folder you chose.
+- **Transition Effects** - The effect between each image and video. Choose from **None**, **Fade**, **Slide from Right**, **Slide from Left**, **Rotate In**, **Flip** or **Gallery**.
+- **Transition Speed** - How fast the transition plays. Choose **Slow**, **Medium** or **Fast**, or **Custom** to set your own speed.
+- **Duration for Image** - How long each image shows, in seconds. The default is **10**.
+- **Max Video Duration** - The longest each video plays, in seconds. The default is **0**, which plays every video to the end. For example, at **60**, a 90-second video is cut off after 60 seconds, while a 45-second video plays in full.
+
+<a name="Advanced"></a>
+
+### Advanced
+
+Click **Advanced** for more options:
+
+![Advanced section expanded, showing the Force Sync Interval field](https://support.optisigns.com/hc/article_attachments/56487883123859)
+
+- **Force Sync Interval** - How often, in hours, OptiSigns runs a full sync of your folder. Changes are normally picked up automatically, and this scheduled sync catches anything that was missed. The default is **12**, and you can set any value from **1** to **24**.
+
+Now hit **Save**. You'll have created a Dropbox app, and it will appear in your **Files/Assets**. Depending on how many files are in your folder, the first sync may take a moment, as every file is copied to OptiSigns.
+
+|  |
+| --- |
+| **TIP** |
+| Files play in order by name. To control the order, rename your files in Dropbox, for example by starting each name with **1**, **2**, **3**. |
+
+![Dropbox folder with files numbered 1, 2 and 3 to set the playback order](https://support.optisigns.com/hc/article_attachments/360076677073)
+
+<a name="CheckingAndRefreshingASync"></a>
+
+### Checking and Refreshing a Sync
+
+When files are added, changed or removed in your Dropbox folder, OptiSigns syncs the changes automatically. To see when the last change was synced and which file was synced last, open the app again from **Files/Assets**. To sync right away, click **Refresh Data**.
+
+![Dropbox app settings with the Refresh Data button highlighted](https://support.optisigns.com/hc/article_attachments/56487855832467)
+
+---
+
+<a name="DeployingADropboxApp"></a>
+
+## Deploying a Dropbox App
+
+To push your Dropbox app to a screen, go to the **Screens** tab, then click **Edit** next to the screen you want to display it on.
+
+![Screens list with the Edit button highlighted on a screen row](https://support.optisigns.com/hc/article_attachments/56487855833747)
+
+The **Edit Screen** pop-up will appear. Select **Asset** under **Content Type**, then hit **Change** next to **Selected Asset**.
+
+![Edit Screen dialog with Content Type set to Asset and the Change button highlighted](https://support.optisigns.com/hc/article_attachments/56487883132051)
+
+The **Select Asset** window will open. Search for your Dropbox app, click it, then hit **Select**.
+
+![Select Asset dialog with the Dropbox asset selected](https://support.optisigns.com/hc/article_attachments/56487883136403)
+
+Back in **Edit Screen**, hit **Save**. Your Dropbox files will now play on your screen.
+
+Your Dropbox app can also be displayed in a Playlist or Schedule, or as one zone of a [Split Screen](https://support.optisigns.com/hc/en-us/articles/360026559573).
+
+---
+
+<a name="SupportedFileTypes"></a>
+
+## Supported File Types
+
+The Dropbox app syncs these file types from your folder:
+
+- **Images** - **JPG**, **PNG**, **BMP** and **GIF**
+- **Videos** - **MP4**. For the best compatibility, we recommend MP4 videos encoded in **H.264**. If a video won't play, see [How to re-encode video files](https://support.optisigns.com/hc/en-us/articles/360042143753).
+
+Any other files in the folder, such as documents or spreadsheets, are skipped. For the full list of file types OptiSigns supports on its own, see [What types of files are supported?](https://support.optisigns.com/hc/en-us/articles/360016342373)
+
+---
+
+<a name="Limitations"></a>
+
+## Limitations
+
+- Only the file types listed under **Supported File Types** are synced. Any other files in the folder are ignored.
+- Sub-folders aren't supported. Only files directly inside the folder you choose are synced.
+- To keep the app running smoothly, keep each file to 100 MB or less, and keep up to 200 files per folder. For large videos, we recommend uploading them directly to OptiSigns. For more than 200 files, split them across several folders.
+- Dropbox Teams folders use a different API from personal accounts. As a workaround, create a folder in your personal Dropbox space, upload your content there, and choose that folder in OptiSigns.

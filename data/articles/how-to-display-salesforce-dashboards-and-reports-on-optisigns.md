@@ -6,7 +6,7 @@ Article ID: 55895814798739
 
 Locale: en-us
 
-Updated at: 2026-10-12T20:31:04Z
+Updated at: 2026-10-16T21:20:16Z
 
 ---
 
@@ -31,16 +31,6 @@ Updated at: 2026-10-12T20:31:04Z
 - [Create a Salesforce App in OptiSigns](#CreateASalesforceAppInOptiSigns)
 - [How OptiSigns Renders Your Dashboard](#HowOptiSignsRendersYourDashboard)
 - [Frequently Asked Questions](#FrequentlyAskedQuestions)
-  - [My screen says CRM Analytics required. What does that mean?](#MyScreenSaysCRMAnalyticsRequiredWhatDoesThatMean)
-  - [My screen says Sign-in required, or Needs reconnecting. What do I do?](#MyScreenSaysSignInRequiredOrNeedsReconnectingWhatDoIDo)
-  - [My screen says a Salesforce security policy blocked the image. Why?](#MyScreenSaysASalesforceSecurityPolicyBlockedTheImageWhy)
-  - [OptiSigns says Enter a valid My Domain URL. What is wrong?](#OptiSignsSaysEnterAValidMyDomainURLWhatIsWrong)
-  - [Sign-in fails with redirect\_uri\_mismatch on a blank page. How do I fix it?](#SignInFailsWithRedirectUriMismatchOnABlankPageHowDoIFixIt)
-  - [OptiSigns refused my report when I pressed Save. Why?](#OptiSignsRefusedMyReportWhenIPressedSaveWhy)
-  - [Can I connect a sandbox org?](#CanIConnectASandboxOrg)
-  - [Do I have to use Slack?](#DoIHaveToUseSlack)
-  - [My dashboard is showing old numbers. Why?](#MyDashboardIsShowingOldNumbersWhy)
-  - [Will my dashboard data be stored anywhere?](#WillMyDashboardDataBeStoredAnywhere)
 
 With the Salesforce app, you can display a Salesforce dashboard or report on any OptiSigns screen.
 
@@ -337,13 +327,9 @@ If a refresh fails, the screen keeps the last good picture and shows how long ag
 
 ## Frequently Asked Questions
 
-<a name="MyScreenSaysCRMAnalyticsRequiredWhatDoesThatMean"></a>
-
 #### My screen says "CRM Analytics required." What does that mean?
 
 Salesforce refused to draw the picture for licensing reasons. Your org either does not have a CRM Analytics license, or does not have **Slack for Salesforce** and **CRM Analytics for Slack** enabled. This is a change your Salesforce Administrator has to make. Or switch the app's Display mode to Redraw, which does not need CRM Analytics.
-
-<a name="MyScreenSaysSignInRequiredOrNeedsReconnectingWhatDoIDo"></a>
 
 #### My screen says "Sign-in required, or Needs reconnecting". What do I do?
 
@@ -351,27 +337,19 @@ The Salesforce sign-in was never completed, or Salesforce has refused it since. 
 
 Go to **Integrations**, open the **Salesforce** tab, and use the connection row's menu to choose **Sign-in**. Sign in again as a real, licensed user who can see the dashboards.
 
-<a name="MyScreenSaysASalesforceSecurityPolicyBlockedTheImageWhy"></a>
-
 #### My screen says a Salesforce security policy blocked the image. Why?
 
 With Salesforce image, your org has a policy that will not allow a session to be opened without a person present. The usual causes are step-up authentication on report exports, a High Assurance session requirement on that user's profile, or Login IP Ranges that do not include our servers.
 
 All three are settings inside your Salesforce, so your Salesforce admin will need to permit it for the user who signed in. Contact OptiSigns support and we can tell you exactly what your screens are reporting.
 
-<a name="OptiSignsSaysEnterAValidMyDomainURLWhatIsWrong"></a>
-
 #### OptiSigns says "Enter a valid My Domain URL." What is wrong?
 
 You have most likely pasted the address from your browser bar, which ends in lightning.force.com. OptiSigns needs the login host, which ends in my.salesforce.com. Click your avatar in Salesforce to see it.
 
-<a name="SignInFailsWithRedirectUriMismatchOnABlankPageHowDoIFixIt"></a>
-
 #### Sign-in fails with "redirect\_uri\_mismatch" on a blank page. How do I fix it?
 
 The **Callback URL** on your External Client App does not exactly match the one OptiSigns uses. Open the app in Salesforce and check it character for character against the URL in [Set Up OAuth](#SetUpOAuth) above — watch for a trailing slash or a stray space.
-
-<a name="OptiSignsRefusedMyReportWhenIPressedSaveWhy"></a>
 
 #### OptiSigns refused my report when I pressed Save. Why?
 
@@ -381,29 +359,21 @@ In Salesforce, open the report, choose **Edit**, then **Add Chart**, and save it
 
 Or switch the app's Display mode to Redraw, which shows any report as a table, a bar chart, or a single number.
 
-<a name="CanIConnectASandboxOrg"></a>
-
 #### Can I connect a sandbox org?
 
-Yes. There is nothing extra to switch on — paste the sandbox's own My Domain URL, which looks like `https://yourcompany--sandbox.sandbox.my.salesforce.com`. Salesforce recognises it from the address.
-
-<a name="DoIHaveToUseSlack"></a>
+Yes. There is nothing extra to switch on — paste the sandbox's own My Domain URL, which looks like https://yourcompany--sandbox.sandbox.my.salesforce.com. Salesforce recognises it from the address.
 
 #### Do I have to use Slack?
 
 No. Redraw does not use Slack apps at all. For Salesforce image, Salesforce requires the two Slack apps to be **enabled** in your org because its image service is part of that integration, but nobody needs a Slack account and nothing is posted to Slack.
 
-<a name="MyDashboardIsShowingOldNumbersWhy"></a>
-
-### My dashboard is showing old numbers. Why?
+#### My dashboard is showing old numbers. Why?
 
 A Salesforce dashboard shows the results from the last time it was run, so OptiSigns asks Salesforce to recalculate it at each update. That request is made by the **Run As** user on your External Client App, so check that one is set — see [Set the Run As User](#SetTheRunAsUser).
 
 Reports are not affected: Salesforce runs a report fresh every time it draws one.
 
-<a name="WillMyDashboardDataBeStoredAnywhere"></a>
-
-### Will my dashboard data be stored anywhere?
+#### Will my dashboard data be stored anywhere?
 
 To load quickly, your screens use a copy stored by OptiSigns. With Salesforce image Display mode, the copy is the picture, kept in OptiSigns' cloud storage. Each app keeps its few most recent pictures, and older ones are deleted automatically. With Redraw, the copy is the chart data, kept for up to 24 hours. Your screens receive only that picture or chart data.
 
