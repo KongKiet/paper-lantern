@@ -32,11 +32,13 @@
     "360037391854": "how-to-display-content-from-websites-that-require-a-login.md",
     "360037416494": "how-to-use-the-jira-app.md",
     "360037463934": "how-to-use-the-google-reviews-app.md",
+    "360038992973": "video-codec-or-video-playback-issues.md",
     "360041222994": "how-to-use-the-countup-app.md",
     "360041638433": "how-to-use-the-countdown-app.md",
     "360043621953": "how-to-create-and-use-nested-playlists.md",
     "360046859534": "how-to-use-the-twitch-app.md",
     "360048914673": "edit-screen-what-does-each-option-do.md",
+    "360049159814": "how-to-use-the-walls-io-app.md",
     "360049518313": "how-to-use-the-google-drive-app.md",
     "360049875794": "how-to-use-the-follow-us-app.md",
     "360050244454": "how-to-use-the-trello-app.md",
@@ -46,8 +48,10 @@
     "360051495193": "how-to-use-the-instagram-business-app.md",
     "360056086653": "how-to-change-time-zone-on-your-fire-stick-device.md",
     "360060919453": "how-to-use-the-zendesk-app.md",
+    "360061576673": "advanced-enforce-sso-login-for-your-account.md",
     "36911639377683": "how-to-use-optisigns-with-microsoft-teams-rooms.md",
     "40671590645651": "how-to-play-licensed-background-music-on-digital-signs-with-optisound.md",
+    "4403015887763": "how-to-moderate-your-social-media-feeds.md",
     "4403267825171": "how-to-use-the-social-mix-app.md",
     "4404053129619": "how-to-use-the-microsoft-teams-meeting-app.md",
     "4406180781203": "how-to-use-the-linkedin-app.md",
@@ -73,5 +77,5 @@
     "8399990754195": "how-to-display-a-smartsheet-report-on-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-10-19T06:18:41Z"
+  "updated_at": "2026-10-20T06:06:57Z"
 }
