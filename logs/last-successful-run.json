@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-21T06:06:44Z",
-  "finished_at": "2026-10-21T06:06:48Z",
-  "elapsed_seconds": 4.4,
+  "started_at": "2026-10-22T06:10:24Z",
+  "finished_at": "2026-10-22T06:10:36Z",
+  "elapsed_seconds": 12.5,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 0,
+    "added": 1,
     "updated": 0,
-    "skipped": 30,
+    "skipped": 29,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -29,6 +29,22 @@
   },
   "discovery_error": null,
   "articles": [
+    {
+      "article_id": "15268811715347",
+      "title": "Cannot find the OptiSigns app on Your Samsung Smart TV",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/15268811715347-Cannot-find-the-OptiSigns-app-on-Your-Samsung-Smart-TV",
+      "updated_at": "2026-10-21T09:26:59Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/cannot-find-the-optisigns-app-on-your-samsung-smart-tv.md",
+      "content_sha256": "23d27ca49871de25f753fa805e4c8f5c3f015913aa612c4af80b34c6d9c070c2",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/cannotfindtheoptisignsappon-ky4u5f3j99g9",
+      "replaced_document": null,
+      "error": null
+    },
     {
       "article_id": "4403015887763",
       "title": "How to Moderate Your Social Media Feeds",
@@ -478,22 +494,6 @@
       "error": null
     },
     {
-      "article_id": "28295074995859",
-      "title": "How to Manage and Edit Your Playlist Settings",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/28295074995859-How-to-Manage-and-Edit-Your-Playlist-Settings",
-      "updated_at": "2026-10-14T18:00:33Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/how-to-manage-and-edit-your-playlist-settings.md",
-      "content_sha256": "9a3f0bd0a2d103033f127e9e7af0532854fb6830942c3d5d15220308452c9cd8",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtomanageandedityourplayl-i5dq4khz0k2r",
-      "replaced_document": null,
-      "error": null
-    },
-    {
       "article_id": "360051014713",
       "title": "How to Use YouTube with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-Use-YouTube-with-OptiSigns",
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 74,
+    "tracked_active_documents_in_manifest": 75,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
