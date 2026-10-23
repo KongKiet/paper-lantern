@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-22T06:10:24Z",
-  "finished_at": "2026-10-22T06:10:36Z",
-  "elapsed_seconds": 12.5,
+  "started_at": "2026-10-23T06:05:37Z",
+  "finished_at": "2026-10-23T06:05:59Z",
+  "elapsed_seconds": 22.1,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 1,
+    "added": 2,
     "updated": 0,
-    "skipped": 29,
+    "skipped": 28,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -30,6 +30,38 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "48241081473043",
+      "title": "Operational Schedule Troubleshooting",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/48241081473043-Operational-Schedule-Troubleshooting",
+      "updated_at": "2026-10-22T23:47:31Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/operational-schedule-troubleshooting.md",
+      "content_sha256": "abd9dcbdbf3db6c87862b9ab0c17d95dbed564515c1fc4ff967b6c3f96aaf3d5",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/operationalscheduletroubles-m2vowmqx0ftn",
+      "replaced_document": null,
+      "error": null
+    },
+    {
+      "article_id": "4414564078995",
+      "title": "Error Handling",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/4414564078995-Error-Handling",
+      "updated_at": "2026-10-22T10:22:18Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/error-handling.md",
+      "content_sha256": "24f689fffca6f6a24c8e38ec1746df428b5767070e6ee19ed149cbaf54be80bc",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/errorhandlingmd-04p0fj4bpby0",
+      "replaced_document": null,
+      "error": null
+    },
+    {
       "article_id": "15268811715347",
       "title": "Cannot find the OptiSigns app on Your Samsung Smart TV",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/15268811715347-Cannot-find-the-OptiSigns-app-on-Your-Samsung-Smart-TV",
@@ -38,9 +70,9 @@
       "required": false,
       "markdown_path": "data/articles/cannot-find-the-optisigns-app-on-your-samsung-smart-tv.md",
       "content_sha256": "23d27ca49871de25f753fa805e4c8f5c3f015913aa612c4af80b34c6d9c070c2",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/cannotfindtheoptisignsappon-ky4u5f3j99g9",
       "replaced_document": null,
       "error": null
@@ -462,38 +494,6 @@
       "error": null
     },
     {
-      "article_id": "360060919453",
-      "title": "How to Use the Zendesk App",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360060919453-How-to-Use-the-Zendesk-App",
-      "updated_at": "2026-10-14T18:07:38Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/how-to-use-the-zendesk-app.md",
-      "content_sha256": "cdde351baf468cc69c8cb2625ba4adb89606ba638c165eff1795421a4493b849",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousethezendeskappmd-5tjqhkvl1qcu",
-      "replaced_document": null,
-      "error": null
-    },
-    {
-      "article_id": "360048914673",
-      "title": "Edit Screen: What does each option do?",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360048914673-Edit-Screen-What-does-each-option-do",
-      "updated_at": "2026-10-14T18:02:17Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/edit-screen-what-does-each-option-do.md",
-      "content_sha256": "0ba357227ea260c7b5bf71ae3bee085a69c75bec7ec823d8676461f510e6efc2",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/editscreenwhatdoeseachoptio-cxxdtxx9kt3e",
-      "replaced_document": null,
-      "error": null
-    },
-    {
       "article_id": "360051014713",
       "title": "How to Use YouTube with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-Use-YouTube-with-OptiSigns",
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 75,
+    "tracked_active_documents_in_manifest": 77,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
