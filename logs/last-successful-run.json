@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-23T06:05:37Z",
-  "finished_at": "2026-10-23T06:05:59Z",
-  "elapsed_seconds": 22.1,
+  "started_at": "2026-10-24T05:59:28Z",
+  "finished_at": "2026-10-24T05:59:42Z",
+  "elapsed_seconds": 13.5,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 2,
+    "added": 1,
     "updated": 0,
-    "skipped": 28,
+    "skipped": 29,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -30,6 +30,22 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "25273043501587",
+      "title": "How to Lockdown iPad/Single App with Guided Accessibility",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/25273043501587-How-to-Lockdown-iPad-Single-App-with-Guided-Accessibility",
+      "updated_at": "2026-10-23T15:32:18Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/how-to-lockdown-ipad-single-app-with-guided-accessibility.md",
+      "content_sha256": "ed364a1f7a38eee5d645cdc17793ec47bbacf344373a941df17ed218a7d0177c",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtolockdownipadsingleappw-w4o68xpucecq",
+      "replaced_document": null,
+      "error": null
+    },
+    {
       "article_id": "48241081473043",
       "title": "Operational Schedule Troubleshooting",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/48241081473043-Operational-Schedule-Troubleshooting",
@@ -38,9 +54,9 @@
       "required": false,
       "markdown_path": "data/articles/operational-schedule-troubleshooting.md",
       "content_sha256": "abd9dcbdbf3db6c87862b9ab0c17d95dbed564515c1fc4ff967b6c3f96aaf3d5",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/operationalscheduletroubles-m2vowmqx0ftn",
       "replaced_document": null,
       "error": null
@@ -54,9 +70,9 @@
       "required": false,
       "markdown_path": "data/articles/error-handling.md",
       "content_sha256": "24f689fffca6f6a24c8e38ec1746df428b5767070e6ee19ed149cbaf54be80bc",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/errorhandlingmd-04p0fj4bpby0",
       "replaced_document": null,
       "error": null
@@ -478,22 +494,6 @@
       "error": null
     },
     {
-      "article_id": "49039295567891",
-      "title": "ChromeOS PWA Instructions",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/49039295567891-ChromeOS-PWA-Instructions",
-      "updated_at": "2026-10-14T19:21:13Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/chromeos-pwa-instructions.md",
-      "content_sha256": "c3ae1461c57419f96172db4d208b84134304618138f0f04a2834f5e5c913b372",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/chromeospwainstructionsmd-ur5khivr7qxl",
-      "replaced_document": null,
-      "error": null
-    },
-    {
       "article_id": "360051014713",
       "title": "How to Use YouTube with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-Use-YouTube-with-OptiSigns",
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 77,
+    "tracked_active_documents_in_manifest": 78,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
