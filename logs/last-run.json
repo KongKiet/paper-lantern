@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-25T06:14:57Z",
-  "finished_at": "2026-10-25T06:15:09Z",
-  "elapsed_seconds": 12.7,
+  "started_at": "2026-10-26T06:23:27Z",
+  "finished_at": "2026-10-26T06:23:41Z",
+  "elapsed_seconds": 13.9,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -30,6 +30,22 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "1500003244381",
+      "title": "About the OnHold Devices Folder",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/1500003244381-About-the-OnHold-Devices-Folder",
+      "updated_at": "2026-10-25T15:48:03Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/about-the-onhold-devices-folder.md",
+      "content_sha256": "84c440aaed31acb3f9f60d3de8bd2b38ea75dd56a414ef8a40506991fc71fcde",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/abouttheonholddevicesfolder-znklpplqmfab",
+      "replaced_document": null,
+      "error": null
+    },
+    {
       "article_id": "34087061669523",
       "title": "Amazon Signage Stick",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/34087061669523-Amazon-Signage-Stick",
@@ -38,9 +54,9 @@
       "required": false,
       "markdown_path": "data/articles/amazon-signage-stick.md",
       "content_sha256": "364896773bb9fb23e0ebf527d3895cc5352247c566d83651a815a07022d71503",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/amazonsignagestickmd-e3mt7l8mjqdq",
       "replaced_document": null,
       "error": null
@@ -478,22 +494,6 @@
       "error": null
     },
     {
-      "article_id": "53497007807251",
-      "title": "Device Management and Mass Provisioning",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/53497007807251-Device-Management-and-Mass-Provisioning",
-      "updated_at": "2026-10-15T16:10:20Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/device-management-and-mass-provisioning.md",
-      "content_sha256": "cb133616ca8dcf84ab0f3d1a4e3a357a0e93bc4875e51cdc030dc258adee6dde",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/devicemanagementandmassprov-8tr4l51467im",
-      "replaced_document": null,
-      "error": null
-    },
-    {
       "article_id": "360051014713",
       "title": "How to Use YouTube with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-Use-YouTube-with-OptiSigns",
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 79,
+    "tracked_active_documents_in_manifest": 80,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
