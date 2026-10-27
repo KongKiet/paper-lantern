@@ -3,6 +3,7 @@
   "files": {
     "11032964830227": "how-to-use-the-monday-com-app.md",
     "12454101966355": "how-to-use-the-musthavemenus-app.md",
+    "13320135306515": "build-integrations-using-the-optisigns-enterprise-app.md",
     "1500002233221": "how-to-use-the-asana-app.md",
     "1500003244381": "about-the-onhold-devices-folder.md",
     "1500005888781": "how-to-best-use-canva-with-optisigns.md",
@@ -14,6 +15,7 @@
     "25607930101907": "how-to-get-the-most-out-of-your-digital-signs.md",
     "27356288211859": "how-to-use-icloud-calendar-with-optisigns.md",
     "27463953562899": "amazon-tv-firestick-troubleshooting-guide.md",
+    "28115946505107": "how-to-change-engage-kiosk-style-preferences.md",
     "28295074995859": "how-to-manage-and-edit-your-playlist-settings.md",
     "28295104605843": "how-to-create-use-playlists.md",
     "29465595849235": "list-of-supported-cities-for-weather-wall-city-themes.md",
@@ -26,9 +28,11 @@
     "360016254994": "how-to-display-vimeo-videos-with-optisigns.md",
     "360016313754": "how-to-install-an-apk-file-on-your-fire-tv.md",
     "360016342373": "what-types-of-files-are-supported.md",
+    "360016375793": "can-i-have-my-invoices-receipts-sent-to-a-different-email-address.md",
     "360016388733": "how-to-use-the-instagram-app.md",
     "360017964153": "how-to-use-weather-apps-in-optisigns.md",
     "360021855653": "what-hardware-and-devices-are-supported.md",
+    "360026559573": "how-to-create-and-use-the-split-screen-app.md",
     "360033693534": "powerpoint-resolution-size-for-use-with-digital-signage.md",
     "360034883113": "working-with-teams-and-security-levels.md",
     "360035739414": "how-to-preview-a-screen.md",
@@ -83,5 +87,5 @@
     "8399990754195": "how-to-display-a-smartsheet-report-on-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-10-26T06:23:30Z"
+  "updated_at": "2026-10-27T06:24:32Z"
 }
