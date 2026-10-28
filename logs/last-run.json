@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-10-27T06:24:30Z",
-  "finished_at": "2026-10-27T06:25:32Z",
-  "elapsed_seconds": 61.5,
+  "started_at": "2026-10-28T06:54:57Z",
+  "finished_at": "2026-10-28T06:55:08Z",
+  "elapsed_seconds": 11.3,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 4,
-    "updated": 5,
-    "skipped": 21,
+    "added": 1,
+    "updated": 0,
+    "skipped": 29,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -30,6 +30,22 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "1500012522362",
+      "title": "How to use the Web Scripting App",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/1500012522362-How-to-use-the-Web-Scripting-App",
+      "updated_at": "2026-10-27T17:25:27Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/how-to-use-the-web-scripting-app.md",
+      "content_sha256": "c972b04c9e7d47c030972bd8ddab8b2568d2c0f82d4ba52bc589b5d1c3a78cb2",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousethewebscriptingappm-mi6kmz71vn39",
+      "replaced_document": null,
+      "error": null
+    },
+    {
       "article_id": "28115946505107",
       "title": "How to Change Engage/Kiosk Style Preferences",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/28115946505107-How-to-Change-Engage-Kiosk-Style-Preferences",
@@ -38,9 +54,9 @@
       "required": false,
       "markdown_path": "data/articles/how-to-change-engage-kiosk-style-preferences.md",
       "content_sha256": "e08bb3d1d74844a6dcdcb07a5aeb5c4b78c8f2d73b7dd6c64a329475964bd57a",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtochangeengagekioskstyle-82qhukioq92d",
       "replaced_document": null,
       "error": null
@@ -54,9 +70,9 @@
       "required": false,
       "markdown_path": "data/articles/can-i-have-my-invoices-receipts-sent-to-a-different-email-address.md",
       "content_sha256": "d664705ea8692dea90da47af1422246d3c9bf670fb132594738ac007ad5888f5",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/canihavemyinvoicesreceiptss-cif8kxi3cuzs",
       "replaced_document": null,
       "error": null
@@ -70,11 +86,11 @@
       "required": true,
       "markdown_path": "data/articles/how-to-use-youtube-with-optisigns.md",
       "content_sha256": "b57086145de7ae911e0b4325ee93ded360cfb229ee51272de901e070d86236c8",
-      "delta": "changed",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "updated",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtouseyoutubewithoptisign-gq7dapwgkwn4",
-      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtouseyoutubewithoptisign-73o2cjqu7k70",
+      "replaced_document": null,
       "error": null
     },
     {
@@ -86,11 +102,11 @@
       "required": false,
       "markdown_path": "data/articles/how-to-use-the-google-drive-app.md",
       "content_sha256": "d9f1bf111fe612ae52d59a31370967570c8db4b7e2a862d8d6e34fe2d2a49518",
-      "delta": "changed",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "updated",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousethegoogledriveappmd-ks27p2jg8w4z",
-      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousethegoogledriveappmd-9x94q1889ylc",
+      "replaced_document": null,
       "error": null
     },
     {
@@ -102,11 +118,11 @@
       "required": false,
       "markdown_path": "data/articles/how-to-use-the-instagram-app.md",
       "content_sha256": "0d675179ed39ccef2b5ecf50327220ee192dea38e87f45d168accb74ad3925fc",
-      "delta": "changed",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "updated",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousetheinstagramappmd-kr1gcj9b72j0",
-      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousetheinstagramappmd-c718ul2q5rhq",
+      "replaced_document": null,
       "error": null
     },
     {
@@ -118,11 +134,11 @@
       "required": false,
       "markdown_path": "data/articles/how-to-use-weather-apps-in-optisigns.md",
       "content_sha256": "a865b466fdefdf38d1f984f312131e8ad230a766cb9d671b0ee82b8dcfb2ec3d",
-      "delta": "changed",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "updated",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtouseweatherappsinoptisi-6jqj31myefxj",
-      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtouseweatherappsinoptisi-h1ddp9bhlnp7",
+      "replaced_document": null,
       "error": null
     },
     {
@@ -134,9 +150,9 @@
       "required": false,
       "markdown_path": "data/articles/how-to-create-and-use-the-split-screen-app.md",
       "content_sha256": "294b1ab177d14ed8db895f21017c1a533ffd4f04e342c39b410c39c53b628c2e",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtocreateandusethesplitsc-zq20hwnx8le5",
       "replaced_document": null,
       "error": null
@@ -150,11 +166,11 @@
       "required": false,
       "markdown_path": "data/articles/how-to-create-use-playlists.md",
       "content_sha256": "ad2888732c083e138f86afb8853c3eac3eecedaa3e4752077ee985e2fd2b9c31",
-      "delta": "changed",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "updated",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtocreateuseplaylistsmd-21jghk1wxh55",
-      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtocreateuseplaylistsmd-2k3svlp67u0s",
+      "replaced_document": null,
       "error": null
     },
     {
@@ -166,9 +182,9 @@
       "required": false,
       "markdown_path": "data/articles/build-integrations-using-the-optisigns-enterprise-app.md",
       "content_sha256": "6cfcdf1f2518e70558f4ba2550bf0c7aa360b1c7421c7e6eea3b60a952d69b99",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/buildintegrationsusingtheop-ce3q43b4nnkj",
       "replaced_document": null,
       "error": null
@@ -492,22 +508,6 @@
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousetheonedriveappmd-eaqectf7pszj",
       "replaced_document": null,
       "error": null
-    },
-    {
-      "article_id": "30003143806099",
-      "title": "How to Use the OptiSigns Mobile Admin App",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/30003143806099-How-to-Use-the-OptiSigns-Mobile-Admin-App",
-      "updated_at": "2026-10-16T14:31:48Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/how-to-use-the-optisigns-mobile-admin-app.md",
-      "content_sha256": "12d22b6a4f9dfc15e0cb0e86984953736fe2bd76c1db9a457e3b68cb1f92ea6c",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousetheoptisignsmobilea-63p5w6gkfu23",
-      "replaced_document": null,
-      "error": null
     }
   ],
   "rejected_candidates": [],
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 84,
+    "tracked_active_documents_in_manifest": 85,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
