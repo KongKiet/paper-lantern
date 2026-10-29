@@ -6,7 +6,7 @@ Article ID: 33940834613139
 
 Locale: en-us
 
-Updated at: 2026-10-08T16:57:16Z
+Updated at: 2026-10-28T15:43:14Z
 
 ---
 
@@ -142,7 +142,6 @@ You will lose access to certain features that are not available on a Free plan, 
 - Instagram Business
 - LinkedIn
 - Social Mix
-- X (Twitter)
 - YouTube Playlist
 - YouTube Channel
 - YouTube Live Schedule
