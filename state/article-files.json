@@ -2,8 +2,10 @@
   "version": 1,
   "files": {
     "11032964830227": "how-to-use-the-monday-com-app.md",
+    "11116333259283": "setting-up-your-samsung-smart-signage-platform-sssp-commercial-grade.md",
     "12454101966355": "how-to-use-the-musthavemenus-app.md",
     "13320135306515": "build-integrations-using-the-optisigns-enterprise-app.md",
+    "14726570281875": "installing-optisigns-on-samsung-tizen-smart-tvs.md",
     "1500000480302": "advanced-custom-domain-mapping.md",
     "1500000485202": "custom-branding-settings-and-branded-portals.md",
     "1500002233221": "how-to-use-the-asana-app.md",
@@ -28,6 +30,7 @@
     "29465595849235": "list-of-supported-cities-for-weather-wall-city-themes.md",
     "30003143806099": "how-to-use-the-optisigns-mobile-admin-app.md",
     "31113088917907": "how-to-use-toast-api-data-with-optisigns.md",
+    "32129032857875": "where-to-buy-optisigns-devices.md",
     "33382537925267": "making-a-video-wall-with-optisigns-video-wall-app.md",
     "33940834613139": "what-do-i-get-with-an-optisigns-free-plan.md",
     "34087061669523": "amazon-signage-stick.md",
@@ -43,6 +46,7 @@
     "360033693534": "powerpoint-resolution-size-for-use-with-digital-signage.md",
     "360034379293": "windows.md",
     "360034379573": "linux.md",
+    "360034379693": "raspberry-pi.md",
     "360034883113": "working-with-teams-and-security-levels.md",
     "360035739414": "how-to-preview-a-screen.md",
     "360036250853": "how-to-use-microsoft-outlook-calendar-with-optisigns.md",
@@ -50,6 +54,7 @@
     "360037416494": "how-to-use-the-jira-app.md",
     "360037463934": "how-to-use-the-google-reviews-app.md",
     "360038992973": "video-codec-or-video-playback-issues.md",
+    "360039566974": "install-optisigns-as-channel-or-app-on-roku.md",
     "360041222994": "how-to-use-the-countup-app.md",
     "360041501494": "macos.md",
     "360041638433": "how-to-use-the-countdown-app.md",
@@ -78,6 +83,7 @@
     "4408946045715": "how-to-integrate-bonusly-digital-signage-with-optisigns.md",
     "4411530012307": "how-to-use-microsoft-teams-live-app-with-optisigns.md",
     "4414355658899": "how-to-use-microsoft-powerpoint-with-optisigns.md",
+    "4414496579475": "lg-webos-signage-commercial-grade.md",
     "4414539282067": "displaying-sharepoint-sites-on-optisigns.md",
     "4414564078995": "error-handling.md",
     "4417940565139": "how-to-display-microsoft-teams-chat-on-optisigns.md",
@@ -86,6 +92,7 @@
     "4529298306963": "how-to-use-microsoft-excel-online-with-optisigns.md",
     "48241081473043": "operational-schedule-troubleshooting.md",
     "49039295567891": "chromeos-pwa-instructions.md",
+    "5090125683219": "brightsign-players.md",
     "5119724468371": "how-to-use-the-notion-app.md",
     "53497007807251": "device-management-and-mass-provisioning.md",
     "55447693635731": "how-to-display-grafana-dashboards-on-optisigns.md",
@@ -94,9 +101,10 @@
     "56493703696659": "how-to-display-datadog-dashboards-on-optisigns.md",
     "56498363329683": "how-to-use-the-air-quality-index-app.md",
     "56498391179667": "how-to-use-the-eventbrite-events-app.md",
+    "56946344474003": "lg-webos-smart-tvs-consumer-grade.md",
     "6091289267475": "how-to-use-the-matterport-app.md",
     "8399990754195": "how-to-display-a-smartsheet-report-on-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-10-29T07:13:12Z"
+  "updated_at": "2026-10-30T07:15:47Z"
 }

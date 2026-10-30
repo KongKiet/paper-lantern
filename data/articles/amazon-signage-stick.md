@@ -6,86 +6,112 @@ Article ID: 34087061669523
 
 Locale: en-us
 
-Updated at: 2026-10-25T02:01:21Z
+Updated at: 2026-10-29T20:18:17Z
 
 ---
 
-### In this article, we’ll walk you through getting OptiSigns set up and working on an Amazon Signage Stick.
+### In this article, we'll set up an Amazon Signage Stick, assign OptiSigns to it in Amazon Signage Manager and pair it with your OptiSigns account.
 
-- [Setting Up the Amazon Signage Stick](#Setting)
-- [Pairing with OptiSigns Web Portal](#Pairing)
+- [Set Up the Amazon Signage Stick](#SetUpTheAmazonSignageStick)
+- [Assign OptiSigns in Amazon Signage Manager](#AssignOptiSignsInAmazonSignageManager)
+  - [Rename the Device](#RenameTheDevice)
+- [Pair the Stick with Your Account](#PairTheStickWithYourAccount)
+- [Next Steps](#NextSteps)
 
-The new [Amazon Signage Stick](https://www.amazon.com/dp/B0D4FCG9MX/ref=pmkt_cms105_web) is out, and it supports OptiSigns. We’ll help you get our app up and running on it in no time.
+The [Amazon Signage Stick](https://www.amazon.com/dp/B0D4FCG9MX/ref=pmkt_cms105_web) supports OptiSigns. You don't install OptiSigns from an app store on this device. Instead, you choose OptiSigns as the content management system in Amazon Signage Manager, and Amazon installs the app for you.
 
-<a name="Setting"></a>
+---
 
-## Setting Up the Amazon Signage Stick
+<a name="SetUpTheAmazonSignageStick"></a>
 
-First, plug the Amazon Signage Stick into the HDMI port on your screen, then connect it to a power source.
+## Set Up the Amazon Signage Stick
 
-Power it on, then follow the onscreen instructions to set up your Network access.
+Plug the Amazon Signage Stick into an HDMI port on your screen, then connect it to power.
+
+Turn it on and follow the onscreen instructions to connect it to your network.
 
 |  |
 | --- |
-| **NOTE:** During the initial setup of your Amazon Signage Stick, you will need access to the Internet for it to work. |
+| **NOTE** |
+| The Amazon Signage Stick needs internet access during its initial setup. |
 
-Once the signage player is online, you should see a screen similar to the one below urging you to pair your device.
+When the stick is online, it shows a pairing code and asks you to log in to Amazon Signage Manager. Keep this code on screen.
 
-![amazon digital signage stick screen pairing example](https://support.optisigns.com/hc/article_attachments/34087057389843)
-
-Navigate to the [Amazon Signage Manager](https://console.signage.amazon.com/) using this link or the one on your screen. Once you’ve logged in to an Amazon account, you’ll see the screen below. Click **Add Device.**
-
-**![amazon signage portal with arrow pointing toward add device button](https://support.optisigns.com/hc/article_attachments/34087057395603)**
-
-You’ll see the screen below.
-
-![amazon signage portal set up screen](https://support.optisigns.com/hc/article_attachments/34087057397011)
-
-Next, input the pairing code appearing on your screen. Then, select **OptiSigns** from the dropdown.
-
-![amazon signage portal set up screen with information filled in](https://support.optisigns.com/hc/article_attachments/34087057397907)
-
-Then hit **Save**. The OptiSigns app will automatically download to your device.
-
-On your desktop, you’ll be taken back to the previous screen and your device will be saved on the **Devices** tab.
-
-![devices tab with paired device](https://support.optisigns.com/hc/article_attachments/34087061648915)
-
-If you’d like to change your device name, hit the **Edit** button.
-
-![edit device screen with DSN and device name](https://support.optisigns.com/hc/article_attachments/34087061649811)
-
-Your DSN is fixed, but you can edit the name of the device.
-
-Now that you’ve assigned OptiSigns to your device, the app will launch. Once it does, you’ll need to pair it with the OptiSigns portal, which is where you’ll assign content to display on your screen.
+![Amazon Signage Stick screen showing an example pairing code and the console.signage.amazon.com address](https://support.optisigns.com/hc/article_attachments/56956620097171)
 
 ---
 
-<a name="Pairing"></a>
+<a name="AssignOptiSignsInAmazonSignageManager"></a>
 
-## Pairing with the OptiSigns Portal
+## Assign OptiSigns in Amazon Signage Manager
 
-The first screen you see once the OptiSigns app launches will be this:
+On a computer, go to [Amazon Signage Manager](https://console.signage.amazon.com/) and log in with your Amazon account.
 
-![optisigns pairing screen example](https://support.optisigns.com/hc/article_attachments/34087061652627)
+On the **Devices** page, select **Add Device**.
 
-Navigate to [the OptiSigns website](http://app.optisigns.com) and log in. You’ll end up on the **Screens** tab. From here, hit the **Add Screen** button.
+![Amazon Signage Manager Devices page with an arrow on the Add Device button](https://support.optisigns.com/hc/article_attachments/56956652211347)
 
-![Screens tab with arrow pointing at the Add Screen button](https://support.optisigns.com/hc/article_attachments/55237217329299)
+Enter the pairing code shown on your screen.
 
-Here, type the Pair Code which appears on your screen. Then, hit **Pair.**
+![Amazon Signage Manager setup page asking for the pairing code shown on your screen](https://support.optisigns.com/hc/article_attachments/56956620100243)
 
-**![Add Screen dialog with the Pair code field highlighted](https://support.optisigns.com/hc/article_attachments/55237233781523)**
+Under **Select your preferred Content Management System**, choose **OptiSigns** from the list.
 
-Your screen should look like this:
+![Amazon Signage Manager setup page with a pairing code entered and OptiSigns selected as the CMS](https://support.optisigns.com/hc/article_attachments/56956652217363)
 
-![optisigns app paired screen](https://support.optisigns.com/hc/article_attachments/34087057419155)
+Select **Save**. The OptiSigns app downloads to your device automatically.
 
-Now you’re ready to upload and assign assets and playlists.
+Amazon Signage Manager returns to the **Devices** page, which now lists your stick with **OptiSigns** as its CMS.
 
-Follow these guides for more detailed steps:
+![Amazon Signage Manager Devices list showing a device that is Online with OptiSigns as the CMS](https://support.optisigns.com/hc/article_attachments/56956652219283)
 
-- [Set up & add a screen](https://support.optisigns.com/hc/en-us/articles/360016374813)
+<a name="RenameTheDevice"></a>
+
+### Rename the Device
+
+To change the device's name, select the edit (pencil) icon in the **Actions** column. The DSN can't be changed, but you can edit **Device Name**, then select **Save**.
+
+![Amazon Signage Manager Edit Device dialog with a fixed DSN and an editable Device Name](https://support.optisigns.com/hc/article_attachments/56956652220307)
+
+---
+
+<a name="PairTheStickWithYourAccount"></a>
+
+## Pair the Stick with Your Account
+
+When OptiSigns is assigned, the OptiSigns app opens on your screen and shows its own pairing code. This is a different code from the Amazon one. Keep it on screen.
+
+![OptiSigns app on the screen showing an example pairing code and app.optisigns.com](https://support.optisigns.com/hc/article_attachments/56956620106131)
+
+1. Go to [app.optisigns.com](https://app.optisigns.com/) and log in. If you don't have an account yet, select **Create Account**. You can also log in with Google, Microsoft or Facebook.
+
+![OptiSigns portal log-in page with Google, Microsoft, Facebook and SSO options](https://support.optisigns.com/hc/article_attachments/56956620108691)
+
+2. On the **Screens** page, select **Add Screen**.
+
+![Screens page toolbar with an arrow on the Add Screen button](https://support.optisigns.com/hc/article_attachments/56956620109203)
+
+3. Enter the pairing code shown on your screen in **Pair code**, then select **Pair**.
+
+![Add Screen dialog with a pair code entered and the Pair button highlighted](https://support.optisigns.com/hc/article_attachments/56956652226579)
+
+**Note:** Codes are case-sensitive, and the portal enters them in capitals. If the code on your screen has lowercase letters, select **Use lowercase pairing code** and type it exactly as shown. If pairing fails with a case error, the portal switches this on for you, so check the code and select **Pair** again.
+
+The screen changes to show that it's paired.
+
+![OptiSigns app showing Paired and app.optisigns.com to assign content](https://support.optisigns.com/hc/article_attachments/56956652228755)
+
+---
+
+<a name="NextSteps"></a>
+
+## Next Steps
+
+Your screen is ready to show content. To get started:
+
 - [How to Upload & Manage Your Files/ Assets](https://support.optisigns.com/hc/en-us/articles/360016247974)
 - [How to Create & Use Playlists](https://support.optisigns.com/hc/en-us/articles/28295104605843)
-- [Create and Using Schedules with OptiSigns](https://support.optisigns.com/hc/en-us/articles/360016981853)
+- [Creating and Using Schedules with OptiSigns](https://support.optisigns.com/hc/en-us/articles/360016981853)
+- [Set up & add a screen](https://support.optisigns.com/hc/en-us/articles/360016374813)
+
+If you have questions or feedback, contact our support team at support@optisigns.com.
