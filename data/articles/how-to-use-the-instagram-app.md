@@ -6,14 +6,14 @@ Article ID: 360016388733
 
 Locale: en-us
 
-Updated at: 2026-10-26T09:15:39Z
+Updated at: 2026-10-30T20:24:26Z
 
 ---
 
 ### In this article, we'll show how to display your own Instagram posts on your digital signs with OptiSigns.
 
-- [Instagram or Instagram Business?](#InstagramOrInstagramBusiness)
 - [What You'll Need](#WhatYoullNeed)
+- [Instagram or Instagram Business?](#InstagramOrInstagramBusiness)
 - [Creating an Instagram App](#CreatingAnInstagramApp)
   - [Advanced](#Advanced)
   - [Moderating Posts](#ModeratingPosts)
