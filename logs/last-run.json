@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-11-01T07:38:24Z",
-  "finished_at": "2026-11-01T07:38:43Z",
-  "elapsed_seconds": 18.7,
+  "started_at": "2026-11-02T07:45:25Z",
+  "finished_at": "2026-11-02T07:45:39Z",
+  "elapsed_seconds": 13.4,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 1,
+    "added": 0,
     "updated": 1,
-    "skipped": 28,
+    "skipped": 29,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -30,6 +30,22 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "360056086653",
+      "title": "How to Change Time Zone on Your Fire Stick device",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360056086653-How-to-Change-Time-Zone-on-Your-Fire-Stick-device",
+      "updated_at": "2026-11-01T14:18:06Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/how-to-change-time-zone-on-your-fire-stick-device.md",
+      "content_sha256": "5a22df01273a6268f4487d479b286d77101d2da59efe2e96f00e7d87e9fa2560",
+      "delta": "changed",
+      "scrape_status": "scraped",
+      "upload": "updated",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtochangetimezoneonyourfi-6p6fvf7yqk6c",
+      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtochangetimezoneonyourfi-rmnaaii6kqlv",
+      "error": null
+    },
+    {
       "article_id": "360016254994",
       "title": "How to Display Vimeo Videos with OptiSigns",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360016254994-How-to-Display-Vimeo-Videos-with-OptiSigns",
@@ -38,11 +54,11 @@
       "required": false,
       "markdown_path": "data/articles/how-to-display-vimeo-videos-with-optisigns.md",
       "content_sha256": "a762ff85a2ec96d1c9c0b4f0d0922343c3d2f31de18c49cde5ae55ac223b71b5",
-      "delta": "changed",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "updated",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtodisplayvimeovideoswith-c3fz976ces1s",
-      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtodisplayvimeovideoswith-mztdf87cze4h",
+      "replaced_document": null,
       "error": null
     },
     {
@@ -54,9 +70,9 @@
       "required": false,
       "markdown_path": "data/articles/samsung-tizen-tvs-troubleshooting-guide.md",
       "content_sha256": "c75bbd053bf06534653643016f99aa3a956d8a0d401701825495a0739e00385d",
-      "delta": "new",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "added",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/samsungtizentvstroubleshoot-ejwt6r3lcmi2",
       "replaced_document": null,
       "error": null
@@ -490,22 +506,6 @@
       "scrape_status": "scraped",
       "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousethewebscriptingappm-mi6kmz71vn39",
-      "replaced_document": null,
-      "error": null
-    },
-    {
-      "article_id": "28115946505107",
-      "title": "How to Change Engage/Kiosk Style Preferences",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/28115946505107-How-to-Change-Engage-Kiosk-Style-Preferences",
-      "updated_at": "2026-10-26T20:29:11Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/how-to-change-engage-kiosk-style-preferences.md",
-      "content_sha256": "e08bb3d1d74844a6dcdcb07a5aeb5c4b78c8f2d73b7dd6c64a329475964bd57a",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtochangeengagekioskstyle-82qhukioq92d",
       "replaced_document": null,
       "error": null
     }
