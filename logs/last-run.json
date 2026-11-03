@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-11-02T07:45:25Z",
-  "finished_at": "2026-11-02T07:45:39Z",
-  "elapsed_seconds": 13.4,
+  "started_at": "2026-11-03T07:59:46Z",
+  "finished_at": "2026-11-03T08:00:05Z",
+  "elapsed_seconds": 18.6,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 0,
-    "updated": 1,
-    "skipped": 29,
+    "added": 2,
+    "updated": 0,
+    "skipped": 28,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -30,6 +30,38 @@
   "discovery_error": null,
   "articles": [
     {
+      "article_id": "35626165056787",
+      "title": "How to Contact OptiSigns Support",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/35626165056787-How-to-Contact-OptiSigns-Support",
+      "updated_at": "2026-11-02T19:05:18Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/how-to-contact-optisigns-support.md",
+      "content_sha256": "cbbd0e79788e7fa36f05736ec1a4c0a5bfee961c42bd029dce8f495c3be933eb",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtocontactoptisignssuppor-9erzvr1luiws",
+      "replaced_document": null,
+      "error": null
+    },
+    {
+      "article_id": "9169378546195",
+      "title": "Data Residency and OptiSigns",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/9169378546195-Data-Residency-and-OptiSigns",
+      "updated_at": "2026-11-02T17:03:51Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/data-residency-and-optisigns.md",
+      "content_sha256": "85df705ab07cc64458e98839907acd94772c6595867d162c62004aa8753338b1",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/dataresidencyandoptisignsmd-5uwteturw7xs",
+      "replaced_document": null,
+      "error": null
+    },
+    {
       "article_id": "360056086653",
       "title": "How to Change Time Zone on Your Fire Stick device",
       "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360056086653-How-to-Change-Time-Zone-on-Your-Fire-Stick-device",
@@ -38,11 +70,11 @@
       "required": false,
       "markdown_path": "data/articles/how-to-change-time-zone-on-your-fire-stick-device.md",
       "content_sha256": "5a22df01273a6268f4487d479b286d77101d2da59efe2e96f00e7d87e9fa2560",
-      "delta": "changed",
+      "delta": "unchanged",
       "scrape_status": "scraped",
-      "upload": "updated",
+      "upload": "skipped",
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtochangetimezoneonyourfi-6p6fvf7yqk6c",
-      "replaced_document": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtochangetimezoneonyourfi-rmnaaii6kqlv",
+      "replaced_document": null,
       "error": null
     },
     {
@@ -476,38 +508,6 @@
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/custombrandingsettingsandbr-tw1b3prx3z3n",
       "replaced_document": null,
       "error": null
-    },
-    {
-      "article_id": "33940834613139",
-      "title": "What Do I Get With an OptiSigns Free Plan?",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/33940834613139-What-Do-I-Get-With-an-OptiSigns-Free-Plan",
-      "updated_at": "2026-10-28T15:43:14Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/what-do-i-get-with-an-optisigns-free-plan.md",
-      "content_sha256": "f0a8bcc0227d5f98ddde76d4f08a5c633601956edaeaf6eba1cacaa8dbad05aa",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/whatdoigetwithanoptisignsfr-uuv1luh7e1xb",
-      "replaced_document": null,
-      "error": null
-    },
-    {
-      "article_id": "1500012522362",
-      "title": "How to use the Web Scripting App",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/1500012522362-How-to-use-the-Web-Scripting-App",
-      "updated_at": "2026-10-27T17:25:27Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/how-to-use-the-web-scripting-app.md",
-      "content_sha256": "c972b04c9e7d47c030972bd8ddab8b2568d2c0f82d4ba52bc589b5d1c3a78cb2",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtousethewebscriptingappm-mi6kmz71vn39",
-      "replaced_document": null,
-      "error": null
     }
   ],
   "rejected_candidates": [],
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 107,
+    "tracked_active_documents_in_manifest": 109,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
