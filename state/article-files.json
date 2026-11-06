@@ -4,7 +4,9 @@
     "11032964830227": "how-to-use-the-monday-com-app.md",
     "11116333259283": "setting-up-your-samsung-smart-signage-platform-sssp-commercial-grade.md",
     "12454101966355": "how-to-use-the-musthavemenus-app.md",
+    "12498801963027": "show-offline-indicator-feature.md",
     "13320135306515": "build-integrations-using-the-optisigns-enterprise-app.md",
+    "14502378549907": "present-or-share-your-screen-with-optisigns-and-the-aericast-add-on.md",
     "14726570281875": "installing-optisigns-on-samsung-tizen-smart-tvs.md",
     "1500000480302": "advanced-custom-domain-mapping.md",
     "1500000485202": "custom-branding-settings-and-branded-portals.md",
@@ -61,6 +63,7 @@
     "360039566974": "install-optisigns-as-channel-or-app-on-roku.md",
     "360041222994": "how-to-use-the-countup-app.md",
     "360041501494": "macos.md",
+    "360041587014": "how-to-change-your-billing-information-view-billing-history-and-download-receipt.md",
     "360041638433": "how-to-use-the-countdown-app.md",
     "360043621953": "how-to-create-and-use-nested-playlists.md",
     "360046859534": "how-to-use-the-twitch-app.md",
@@ -75,6 +78,8 @@
     "360051014713": "how-to-use-youtube-with-optisigns.md",
     "360051495193": "how-to-use-the-instagram-business-app.md",
     "360051745633": "how-to-set-up-an-instagram-business-creator-account.md",
+    "360052513253": "how-to-use-the-emergency-message-alert-app.md",
+    "360055486554": "remotely-control-and-command-optisigns-devices.md",
     "360056086653": "how-to-change-time-zone-on-your-fire-stick-device.md",
     "360060284174": "how-to-use-youtube-live-schedule-with-optisigns.md",
     "360060919453": "how-to-use-the-zendesk-app.md",
@@ -86,6 +91,7 @@
     "4404053129619": "how-to-use-the-microsoft-teams-meeting-app.md",
     "4406180781203": "how-to-use-the-linkedin-app.md",
     "4407335862931": "how-to-use-the-slack-app.md",
+    "4407386819731": "how-to-set-up-saml-2-0-with-optisigns-and-onelogin.md",
     "4408946045715": "how-to-integrate-bonusly-digital-signage-with-optisigns.md",
     "4411530012307": "how-to-use-microsoft-teams-live-app-with-optisigns.md",
     "4414355658899": "how-to-use-microsoft-powerpoint-with-optisigns.md",
@@ -110,9 +116,10 @@
     "56946344474003": "lg-webos-smart-tvs-consumer-grade.md",
     "56987330525587": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md",
     "6091289267475": "how-to-use-the-matterport-app.md",
+    "8098889840531": "how-to-use-rtsp-streams-on-optisigns-devices.md",
     "8399990754195": "how-to-display-a-smartsheet-report-on-optisigns.md",
     "9169378546195": "data-residency-and-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-11-05T07:57:53Z"
+  "updated_at": "2026-11-06T07:59:23Z"
 }

@@ -1,64 +1,91 @@
-# Video codec or video playback issues
+# Video Codec or Video Playback Issues and How to Re-encode Videos
 
-Article URL: https://support.optisigns.com/hc/en-us/articles/360038992973-Video-codec-or-video-playback-issues
+Article URL: https://support.optisigns.com/hc/en-us/articles/360038992973-Video-Codec-or-Video-Playback-Issues-and-How-to-Re-encode-Videos
 
 Article ID: 360038992973
 
 Locale: en-us
 
-Updated at: 2026-10-19T13:04:32Z
+Updated at: 2026-11-05T22:37:38Z
 
 ---
 
-There are different codecs that used by videos, such as H264, HEVC, VP9, Mpeg-4, AV1. The support of the codec are dependent on the hardware, when the codec is not supported by the device used for video playback, you may see this error screen like below on OptiSigns. Or it could be simply that the video playback is slow and dropping frames, because it is use software decoding instead of hardware decoding. Similarly, when the video resolution or bit rate is too high for the hardware to handle, you may experience the same issue.
+### In this article, we'll explain why a video may not play, or play slowly, on your screen, and show how to fix it by switching video players or re-encoding the video.
 
-Here are some options you can try to resolve the issue:
+- [What You'll Need](#WhatYoullNeed)
+- [Try a Different Video Player](#TryADifferentVideoPlayer)
+  - [Linux Players, Including the OptiSigns Pro Player and Raspberry Pi](#LinuxPlayersIncludingTheOptiSignsProPlayerAndRaspberryPi)
+  - [Android Devices](#AndroidDevices)
+- [Re-Encode the Video](#ReEncodeTheVideo)
 
-- Try a different video player
-- Re-encode the video
+Videos are compressed with a codec, such as H.264, HEVC (H.265), VP9, MPEG-4 or AV1. Whether a device can play a codec depends on its hardware. When your device can't decode a video, OptiSigns shows this message instead of the video:
 
-![](https://static.wixstatic.com/media/e48f7f_1bfd9d9fa0754778b1981f98e092ebba~mv2.png/v1/fill/w_1920,h_1080,al_c,q_90/e48f7f_1bfd9d9fa0754778b1981f98e092ebba~mv2.webp)
+![OptiSigns error screen saying the codec is not supported on your device and to encode the video in a supported format](https://support.optisigns.com/hc/article_attachments/57195697970707)
 
-### **Try a different video player**
+You may also see a video that plays slowly or drops frames. That happens when the device falls back to software decoding, or when the video's resolution or bit rate is too high for the hardware.
 
-To improve the supportability of different codecs, we provided users options to use different video players on different devices.
+There are two ways to fix this: try a different video player, or re-encode the video into a format your device supports.
 
-For example, with OptiSigns Pro player, you can choose to use HTML5 video player or MPV player for video playback on the OptiSigns portal under Edit Screen. Or if you are using RPi with OptiSigns pre-built image, you can choose between HTML5 Video Player, OMX player or MPV player.
+---
 
-![](https://support.optisigns.com/hc/article_attachments/33541399817619)
+<a name="WhatYoullNeed"></a>
 
-If you are using Android devices, you can open the side menu of the player and go to Video Player Settings. This will allow you to change between Texture View and Surface View. Changing from the default Texture View to Surface View may provide better performance on certain hardware if the hardware is optimized only for Surface View. ![](https://support.optisigns.com/hc/article_attachments/33541375854355)
+## What You'll Need
 
-### **Re-encode the video**
+- Access to the screen in the OptiSigns portal, to change its video player
+- To re-encode: a Windows, Mac or Linux computer and the free [HandBrake](https://handbrake.fr/) app
 
-H264 is the most widely supported codec, VP9 and HEVC(H265) are well supported by a lot of the hardware as well. However, there could be times when codec is not recognized or support by your devices. For example, here's a link to Amazon's [supported codec](https://developer.amazon.com/docs/fire-tv/device-specifications.html).
+---
 
-To solve the problem you will need to convert/re-encode your video into something that Amazon or your Android device support.
+<a name="TryADifferentVideoPlayer"></a>
 
-There's a [Handbreak is a free](https://handbrake.fr/) and very popular software to do that. It runs on Windows, Mac and Linux.
+## Try a Different Video Player
 
-To re-encode your video.
+Some OptiSigns players let you choose which video player plays your videos. A different player may support more codecs or play more smoothly on your hardware.
 
-Download, Run Handbreak.
+<a name="LinuxPlayersIncludingTheOptiSignsProPlayerAndRaspberryPi"></a>
 
-Drag your video in there.
+### Linux Players, Including the OptiSigns Pro Player and Raspberry Pi
 
-![](https://static.wixstatic.com/media/e48f7f_13b3c91823cf4467a56ca8d221b9b043~mv2.jpg/v1/fill/w_1257,h_842,al_c,q_90/e48f7f_13b3c91823cf4467a56ca8d221b9b043~mv2.webp)
+In the OptiSigns portal, edit the screen and open the **Advanced** section. Under **Video Player**, choose **HTML5 Video Player** or **MPV Player with hardware acceleration**, then save.
 
-Select the output format you desired.
+![Edit Screen Advanced section with the Video Player list open, showing Default, HTML5 Video Player and MPV Player](https://support.optisigns.com/hc/article_attachments/57195667168531)
 
-Amazon, Android or General would work. Pick appropriate video resolution you want too.
+|  |
+| --- |
+| **NOTE** |
+| **Video Player** appears only for screens running the OptiSigns Linux player, and only on plans that include advanced device management. |
 
-![](https://static.wixstatic.com/media/e48f7f_82c690e3d69f4e23a49e1f209e119299~mv2.jpg/v1/fill/w_1257,h_842,al_c,q_90/e48f7f_82c690e3d69f4e23a49e1f209e119299~mv2.webp)
+<a name="AndroidDevices"></a>
 
-Select a location you want the new video file to be output to.
+### Android Devices
 
-Click Start.
+On the screen, open the OptiSigns app's side menu and go to **Video Player Settings**. Under **Render Type**, switch from the default **Texture View** to **Surface View**. Some hardware is optimized only for Surface View, so this can improve playback.
 
-![](https://static.wixstatic.com/media/e48f7f_5ffa6467b7ee4474a3fbc6e7d9bb9918~mv2.jpg/v1/fill/w_1257,h_842,al_c,q_90/e48f7f_5ffa6467b7ee4474a3fbc6e7d9bb9918~mv2.webp)
+![Video Player Settings dialog with Render Type set to Texture View and the Surface View option below](https://support.optisigns.com/hc/article_attachments/57195697973011)
 
-Depend on video length and quality, and how fast your computer is. It could take some time.
+---
 
-When it's done, you can upload the file back to OptiSigns and assign to your playlists, screens.
+<a name="ReEncodeTheVideo"></a>
 
-If you have further questions, issues, please feel free to contact us at [support@optisigns.com](mailto:support@optisigns.com)
+## Re-Encode the Video
+
+H.264 is the most widely supported codec, and VP9 and HEVC (H.265) are supported by most hardware too. Even so, a device may not support a particular video file. Amazon Fire TV, Android and Roku devices rely on hardware decoding, so they're the most likely to have trouble. Check the supported formats for [Amazon Fire TV](https://developer.amazon.com/docs/fire-tv/device-specifications.html) or [Roku](https://developer.roku.com/en-gb/docs/specs/streaming.md).
+
+To fix it, re-encode the video into a format your device supports. [HandBrake](https://handbrake.fr/) is a free, popular app that does this on Windows, Mac and Linux.
+
+Download HandBrake and open it. Drag your video file onto the **Or drop a file or folder here** area.
+
+![HandBrake Source Selection screen with the Or drop a file or folder here area](https://support.optisigns.com/hc/article_attachments/57195697975315)
+
+Open **Presets**, then **Devices**, and choose a preset for your device, such as **Amazon Fire**, **Android** or **Roku**. Pick the resolution you want, for example **1080p30**. The **General** presets work for most devices too.
+
+![HandBrake Presets menu open on Devices, with arrows pointing to the Amazon Fire, Android and Roku presets](https://support.optisigns.com/hc/article_attachments/57195667175059)
+
+Next to **Save As**, click **Browse** and choose where to save the new file. Then click **Start Encode**.
+
+![HandBrake main window with arrows pointing to Start Encode and the Browse button next to Save As](https://support.optisigns.com/hc/article_attachments/57195697978003)
+
+Encoding can take a while, depending on the video's length and quality and how fast your computer is.
+
+When it's done, upload the new file to OptiSigns and add it to your playlists or screens. See [How to Upload & Manage Your Files and Assets](https://support.optisigns.com/hc/en-us/articles/360016247974).
