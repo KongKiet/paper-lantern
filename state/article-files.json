@@ -26,10 +26,12 @@
     "27267311796243": "optistick.md",
     "27356288211859": "how-to-use-icloud-calendar-with-optisigns.md",
     "27463953562899": "amazon-tv-firestick-troubleshooting-guide.md",
+    "28026588373139": "how-to-fix-the-scaling-issue-on-optisigns-android-devices.md",
     "28115946505107": "how-to-change-engage-kiosk-style-preferences.md",
     "28295074995859": "how-to-manage-and-edit-your-playlist-settings.md",
     "28295104605843": "how-to-create-use-playlists.md",
     "28424138317971": "samsung-tizen-tvs-troubleshooting-guide.md",
+    "28598173096723": "how-to-create-and-use-operational-schedules-hdmi-cec-rs-232.md",
     "29465595849235": "list-of-supported-cities-for-weather-wall-city-themes.md",
     "30003143806099": "how-to-use-the-optisigns-mobile-admin-app.md",
     "31113088917907": "how-to-use-toast-api-data-with-optisigns.md",
@@ -63,6 +65,7 @@
     "360039566974": "install-optisigns-as-channel-or-app-on-roku.md",
     "360041222994": "how-to-use-the-countup-app.md",
     "360041501494": "macos.md",
+    "360041570153": "screen-calibration-fix-content-bleeding-off-the-screen.md",
     "360041587014": "how-to-change-your-billing-information-view-billing-history-and-download-receipt.md",
     "360041638433": "how-to-use-the-countdown-app.md",
     "360043621953": "how-to-create-and-use-nested-playlists.md",
@@ -121,5 +124,5 @@
     "9169378546195": "data-residency-and-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-11-06T07:59:23Z"
+  "updated_at": "2026-11-07T07:17:10Z"
 }
