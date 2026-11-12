@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-11-11T07:48:39Z",
-  "finished_at": "2026-11-11T07:48:44Z",
-  "elapsed_seconds": 5.3,
+  "started_at": "2026-11-12T08:25:39Z",
+  "finished_at": "2026-11-12T08:25:52Z",
+  "elapsed_seconds": 13.3,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
@@ -18,9 +18,9 @@
     "limit": 30,
     "selected": 30,
     "scraped": 30,
-    "added": 0,
+    "added": 1,
     "updated": 0,
-    "skipped": 30,
+    "skipped": 29,
     "failed": 0,
     "selected_documents_confirmed_active": 30,
     "rejected_candidates": 0,
@@ -29,6 +29,22 @@
   },
   "discovery_error": null,
   "articles": [
+    {
+      "article_id": "360024859713",
+      "title": "How to Display Microsoft Power BI Dashboards & Reports with OptiSigns",
+      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/360024859713-How-to-Display-Microsoft-Power-BI-Dashboards-Reports-with-OptiSigns",
+      "updated_at": "2026-11-11T20:29:28Z",
+      "source": "zendesk-api",
+      "required": false,
+      "markdown_path": "data/articles/how-to-display-microsoft-power-bi-dashboards-reports-with-optisigns.md",
+      "content_sha256": "7a77d58f498bfad2c534f3b29fa7a7f00b5a32bd9039b935bb62b3fc52081171",
+      "delta": "new",
+      "scrape_status": "scraped",
+      "upload": "added",
+      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/howtodisplaymicrosoftpowerb-pgp9r2ermkdq",
+      "replaced_document": null,
+      "error": null
+    },
     {
       "article_id": "28026588373139",
       "title": "How to Fix the Scaling Issue on OptiSigns Android Devices",
@@ -492,22 +508,6 @@
       "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/amazonsignagestickmd-n0uc9f9op7jr",
       "replaced_document": null,
       "error": null
-    },
-    {
-      "article_id": "5090125683219",
-      "title": "BrightSign Players",
-      "canonical_url": "https://support.optisigns.com/hc/en-us/articles/5090125683219-BrightSign-Players",
-      "updated_at": "2026-10-29T17:44:28Z",
-      "source": "zendesk-api",
-      "required": false,
-      "markdown_path": "data/articles/brightsign-players.md",
-      "content_sha256": "b99812513173d5cfd07a73f78917f1f7e53ca1c57507f0c482ad1a64102ad2b0",
-      "delta": "unchanged",
-      "scrape_status": "scraped",
-      "upload": "skipped",
-      "document_name": "fileSearchStores/paperlanternoptisigns-sqsdd5vpeno6/documents/brightsignplayersmd-7swe1yf5y7ji",
-      "replaced_document": null,
-      "error": null
     }
   ],
   "rejected_candidates": [],
@@ -519,7 +519,7 @@
       "max_overlap_tokens": 50
     },
     "indexed_files_confirmed_active_this_run": 30,
-    "tracked_active_documents_in_manifest": 121,
+    "tracked_active_documents_in_manifest": 122,
     "provider_chunk_count": null,
     "provider_chunk_count_reason": "Gemini File Search does not expose a per-document or per-store chunk count; no estimate is reported."
   }
