@@ -6,7 +6,7 @@ Article ID: 56498391179667
 
 Locale: en-us
 
-Updated at: 2026-10-16T21:22:00Z
+Updated at: 2026-11-12T23:15:33Z
 
 ---
 
@@ -14,14 +14,9 @@ Updated at: 2026-10-16T21:22:00Z
 
 - [What You'll Need](#WhatYoullNeed)
 - [Creating an Eventbrite Events App](#CreatingAnEventbriteEventsApp)
-  - [Continue with Eventbrite](#ContinueWithEventbrite)
-  - [Use Public Events](#UsePublicEvents)
-- [Display](#Display)
 - [Deploying an Eventbrite Events App](#DeployingAnEventbriteEventsApp)
 
 With the Eventbrite Events app, it's possible to display upcoming events from Eventbrite on your digital signs. Promote your own events, or those of a venue or organizer you love, complete with dates, venues, ticket prices and a QR code viewers can scan to get tickets.
-
-![Eventbrite Events app showing an event poster with its date, venue, ticket price and a QR code to register](https://support.optisigns.com/hc/article_attachments/56498383266579)
 
 Let's get started.
 
@@ -57,8 +52,6 @@ You'll be asked how to load your events. Choose one:
 
 ![Eventbrite Events dialog with the Continue with Eventbrite and Use public events options, Use public events highlighted](https://support.optisigns.com/hc/article_attachments/56498876968083)
 
-<a name="ContinueWithEventbrite"></a>
-
 ### Continue with Eventbrite
 
 Click **Continue with Eventbrite** and sign in to Eventbrite in the window that opens, then approve access. The app settings will open with your Eventbrite connection shown at the top. Fill in the following:
@@ -76,8 +69,6 @@ An **Advanced** section is also available with this option:
 | **NOTE** |
 | The Eventbrite account you sign in with needs an organizer profile. If it doesn't have one, you'll see **Couldn't connect Eventbrite**. Set up an organizer profile on eventbrite.com, then try again. |
 
-<a name="UsePublicEvents"></a>
-
 ### Use Public Events
 
 Click **Use public events**. Fill in the following:
@@ -93,8 +84,6 @@ Click **Use public events**. Fill in the following:
 | Eventbrite has no "events near me" search, so the app shows whatever the link you paste points to. |
 
 ---
-
-<a name="Display"></a>
 
 ## Display
 
