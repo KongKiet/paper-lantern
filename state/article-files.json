@@ -43,6 +43,7 @@
     "33382537925267": "making-a-video-wall-with-optisigns-video-wall-app.md",
     "33940834613139": "what-do-i-get-with-an-optisigns-free-plan.md",
     "34087061669523": "amazon-signage-stick.md",
+    "34379983350163": "accepted-payment-methods-and-currencies.md",
     "35626165056787": "how-to-contact-optisigns-support.md",
     "360016174554": "how-to-set-up-and-manage-optisigns-on-amazon-firetv-and-firesticks.md",
     "360016247974": "how-to-upload-manage-your-files-assets.md",
@@ -117,7 +118,9 @@
     "49039295567891": "chromeos-pwa-instructions.md",
     "5090125683219": "brightsign-players.md",
     "5119724468371": "how-to-use-the-notion-app.md",
+    "5149077938835": "how-to-use-the-advanced-website-app.md",
     "53497007807251": "device-management-and-mass-provisioning.md",
+    "54095075680275": "optidev-add-on-free-trial-and-pricing.md",
     "55447693635731": "how-to-display-grafana-dashboards-on-optisigns.md",
     "55895814798739": "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md",
     "55906396437523": "how-to-use-the-weather-radar-app.md",
@@ -127,11 +130,12 @@
     "56946344474003": "lg-webos-smart-tvs-consumer-grade.md",
     "56987330525587": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md",
     "57645638683411": "the-new-designer-complete-feature-guide.md",
+    "57688527779219": "ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md",
     "6091289267475": "how-to-use-the-matterport-app.md",
     "8098889840531": "how-to-use-rtsp-streams-on-optisigns-devices.md",
     "8399990754195": "how-to-display-a-smartsheet-report-on-optisigns.md",
     "9169378546195": "data-residency-and-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-11-18T08:37:45Z"
+  "updated_at": "2026-11-19T08:52:55Z"
 }

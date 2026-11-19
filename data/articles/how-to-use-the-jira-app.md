@@ -6,7 +6,7 @@ Article ID: 360037416494
 
 Locale: en-us
 
-Updated at: 2026-10-13T21:50:54Z
+Updated at: 2026-11-18T16:23:19Z
 
 ---
 
@@ -31,7 +31,8 @@ Let's get started.
 - A Jira account, with access to the project board or dashboard you want to display
 - An [OptiSigns-enabled device](https://support.optisigns.com/hc/en-us/articles/360021855653)
 - A screen, set up and paired with OptiSigns ([see our Getting Started guide](https://support.optisigns.com/hc/en-us/articles/18823504383891))
-- A keyboard and mouse you can connect to the device, for the first sign-in
+- If your Jira account uses two-step verification, the secret key from its authenticator app setup
+- A keyboard and mouse you can connect to the device, in case Jira emails a verification code on the first sign-in
 
 ---
 
@@ -46,7 +47,7 @@ First, open the Jira project board or dashboard you want to display. Copy its ad
 |  |
 | --- |
 | **NOTE** |
-| The URL must be a Jira Cloud link, such as https://yourcompany.atlassian.net/jira/…. Any other address shows **Please enter a valid Atlassian JIRA URL** and you won't be able to save. |
+| The URL must be a Jira Cloud link, such as **https://yourcompany.atlassian.net/jira/…**. Any other address shows **Please enter a valid Atlassian JIRA URL** and you won't be able to save. |
 
 Next, go to the OptiSigns portal. Go to **Files/Assets** and select **Apps**.
 
@@ -62,7 +63,7 @@ The Jira app settings will open. Fill in the following:
 - **Type** - **URL** to show a board or dashboard from its link, or **Embed** to paste an embed code. You can't change this after saving.
 - **URL** - The Jira address you copied. (With **Embed**, paste your embed code into **Embed Code** instead.)
 - **Update Interval** - How often the app checks Jira for updates, measured in seconds. The default is 600 (every 10 minutes). Set it to 0 to check only when the app first loads.
-- **Sign in with Credential** - Turn this on so OptiSigns can sign in to Jira for you. See [**Signing In to Jira**](#SigningInToJira) below.
+- **Sign in with Credential** - Turn this on so OptiSigns can sign in to Jira for you. See **Signing In to Jira** below.
 
 ![Jira app form with Type set to URL, Name, URL and Update Interval filled in, and an arrow on Save](https://support.optisigns.com/hc/article_attachments/56388477305875)
 
@@ -78,18 +79,32 @@ Now hit **Save**. You'll have created a Jira app, and it will appear in your **F
 
 Most Jira boards and dashboards are private, so OptiSigns needs to sign in to show them. Turn on **Sign in with Credential** and fill in the **Sign In** section:
 
+- **Master Password** - Optional. Check **Use master password** to add an extra layer of encryption to the saved login. If you use it, you'll need to enter the master password once in the OptiSigns app on each device.
 - **Username/Email** - The Jira login the screen should use.
 - **Password** - The password for that login.
-- **Master Password** - Optional. Check **Use master password** to add an extra layer of encryption to the saved login. If you use it, you'll need to enter the master password once in the OptiSigns app on each device.
+- **Secret 2FA** - Only for accounts with two-step verification. See **Accounts With Two-Step Verification** below. Leave it empty if the account doesn't use it.
+- **Recorded 2FA Code** - A placeholder for the code step. Leave it as **123456**; the screen replaces it with the live code each time it signs in.
+- **Delay Execute 2FA JavaScript** - How many seconds the screen waits before entering the code. The default is 5.
+- **Delay Execute JavaScript** - How many seconds the screen waits before it starts the sign-in steps. The default is 5.
 
-![Sign in with Credential turned on, showing the Sign In section with Master Password, Username/Email and Password](https://support.optisigns.com/hc/article_attachments/56388462170771)
+![Sign in with Credential turned on, showing the Sign In section with the Secret 2FA and Recorded 2FA Code fields](https://support.optisigns.com/hc/article_attachments/57687967604371)
 
 The first time the app plays on a device, Jira may email a verification code to that account. Connect a keyboard and mouse to the device to enter it. After that, Jira remembers the device.
+
+### Accounts With Two-Step Verification
+
+If the Jira account asks for a code from an authenticator app when it signs in, the screen can now enter that code by itself. No one has to type a code at the screen.
+
+To set it up, you'll need the account's authenticator **secret key**. In your Atlassian account's two-step verification settings, set up the authenticator app and choose to enter the key manually instead of scanning the QR code. Copy that key and paste it into **Secret 2FA**. You can add the same key to your own authenticator app to finish the setup in Atlassian.
+
+The key is stored encrypted. Leave **Recorded 2FA Code** as **123456**.
+
+If the screen gets stuck on the code step, raise **Delay Execute 2FA JavaScript** so the code page has more time to load before the screen types into it. If it gets stuck before that, on the username or password step, raise **Delay Execute JavaScript**.
 
 |  |
 | --- |
 | **NOTE** |
-| If a dashboard displays empty, check its sharing settings in Jira. A dashboard shared publicly can skip the sign-in step and come up blank. Making it private lets OptiSigns sign in and load it.  **TIP:** Sign-in isn't available with the **Embed** type. Use **URL** for anything that needs a login. |
+| Accounts without two-step verification keep working exactly as before. Leave **Secret 2FA** empty, and nothing changes for your existing Jira apps.  **NOTE:** If a dashboard displays empty, check its sharing settings in Jira. A dashboard shared publicly can skip the sign-in step and come up blank. Making it private lets OptiSigns sign in and load it.  **TIP:** Sign-in isn't available with the **Embed** type. Use **URL** for anything that needs a login. |
 
 ---
 
