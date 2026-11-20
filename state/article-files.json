@@ -21,6 +21,7 @@
     "1500012522362": "how-to-use-the-web-scripting-app.md",
     "15268811715347": "cannot-find-the-optisigns-app-on-your-samsung-smart-tv.md",
     "15808407287315": "preventing-the-optisigns-app-from-turning-on-your-screen.md",
+    "17129313173395": "billing-for-multiple-locations-sub-accounts-and-team-billing.md",
     "17639078588691": "cancel-pause-or-downgrade-your-subscription.md",
     "18823504383891": "optisigns-getting-started-guide.md",
     "23565267463315": "engage-plan-faqs.md",
@@ -95,6 +96,7 @@
     "360060919453": "how-to-use-the-zendesk-app.md",
     "360061576673": "advanced-enforce-sso-login-for-your-account.md",
     "36911639377683": "how-to-use-optisigns-with-microsoft-teams-rooms.md",
+    "37966066335891": "getting-started-with-an-optisigns-free-trial.md",
     "40671590645651": "how-to-play-licensed-background-music-on-digital-signs-with-optisound.md",
     "4403015887763": "how-to-moderate-your-social-media-feeds.md",
     "4403267825171": "how-to-use-the-social-mix-app.md",
@@ -122,6 +124,7 @@
     "53497007807251": "device-management-and-mass-provisioning.md",
     "54095075680275": "optidev-add-on-free-trial-and-pricing.md",
     "55447693635731": "how-to-display-grafana-dashboards-on-optisigns.md",
+    "55719322614803": "inbound-webhook-datasources-in-designer.md",
     "55895814798739": "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md",
     "55906396437523": "how-to-use-the-weather-radar-app.md",
     "56493703696659": "how-to-display-datadog-dashboards-on-optisigns.md",
@@ -131,11 +134,12 @@
     "56987330525587": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md",
     "57645638683411": "the-new-designer-complete-feature-guide.md",
     "57688527779219": "ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md",
+    "57730354923923": "billing-purchase-orders-invoices-and-tax-exemption.md",
     "6091289267475": "how-to-use-the-matterport-app.md",
     "8098889840531": "how-to-use-rtsp-streams-on-optisigns-devices.md",
     "8399990754195": "how-to-display-a-smartsheet-report-on-optisigns.md",
     "9169378546195": "data-residency-and-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-11-19T08:52:55Z"
+  "updated_at": "2026-11-20T08:39:42Z"
 }

@@ -6,157 +6,144 @@ Article ID: 33940834613139
 
 Locale: en-us
 
-Updated at: 2026-10-28T15:43:14Z
+Updated at: 2026-11-19T20:21:36Z
 
 ---
 
-### An OptiSigns Free Plan lets you get started with our digital signage software. Here’s what you get when you sign up!
+### In this article, we'll cover what the Free Plan includes and its limits, which devices and apps you can use, and how to move to the Free Plan from a trial or a paid plan.
 
-- [OptiSigns Free Plan Features](#Features)
-- [Free Plan Supported Devices](#Devices)
-- [Signing Up for an OptiSigns Free Plan](#Signing)
-- [Free Plan Limitations](#Limitations)
-  - [What Content Might Be Affected When Moving from a Paid Plan or Trial to a Free Plan?](#Content)
+- [What the Free Plan Includes](#WhatTheFreePlanIncludes)
+- [Supported Devices](#SupportedDevices)
+- [Apps Available on the Free Plan](#AppsAvailableOnTheFreePlan)
+- [Move to the Free Plan](#MoveToTheFreePlan)
+- [Troubleshooting and Frequently Asked Questions](#TroubleshootingAndFAQ)
 
-With an OptiSigns Free Plan, you’ll gain access to the OptiSigns app and the ability to turn up to three screens into digital signs, completely free!
+The OptiSigns Free Plan lets you run up to 3 screens at no cost, for as long as you like. It's a good fit for trying digital signage on a small scale, or for a small business with simple needs.
 
 |  |
 | --- |
-| **IMPORTANT** |
-| **Free Plan** refers to a long-term subscription to OptiSigns. This is distinct from an OptiSigns [Free Trial](https://support.optisigns.com/hc/en-us/articles/37966066335891-Getting-Started-with-an-OptiSigns-Free-Trial), which gives access to all OptiSigns features for 14 days. |
-
-<a name="Features"></a>
-
-## OptiSigns Free Plan Features
-
-Free plan is good for users with basic digital signage needs. With a Free Plan, you'll get:
-
-- 3 Screens
-- Access to web and mobile app to remotely manage the screens and contents
-- Designer - content design and creation tool
-- Playlist - organizing your contents to put on the screen
-- 25 popular apps, including:
-  - Weather
-  - YouTube
-  - Social Media
-  - News
-  - Many More!
-- Uploading of images, videos, and documents up to 25mb per file
-- 1GB cloud storage
-- Complete access to the OptiSigns Knowledge Base
+| **NOTE** |
+| The Free Plan is different from a Free Trial. A Free Trial gives you every Pro Plus feature for 14 days and then ends. The Free Plan never ends, but it has the limits below. See [Getting Started with an OptiSigns Free Trial](https://support.optisigns.com/hc/en-us/articles/37966066335891). |
 
 ---
 
-<a name="Devices"></a>
+<a name="WhatTheFreePlanIncludes"></a>
 
-## Free Plan Supported Devices
+## What the Free Plan Includes
 
-The Free Plan is **ONLY** supported on these devices:
+- **Screens** - Up to 3 screens, on supported devices.
+- **Users** - Up to 3 users, including people you've invited.
+- **Storage** - 1 GB of cloud storage, with files of up to 25 MB each.
+- **Content** - Images, videos and documents, plus about 25 apps.
+- **Playlists** - Up to 30 items and 200 MB in each playlist. A playlist can't contain another playlist.
+- **Designer** - Static designs. Animations, videos and widgets need a paid plan.
+- **OptiSigns logo** - The OptiSigns logo is shown on your screens.
+- **Help** - Full access to this Help Center, and to the OptiSigns web portal and mobile app.
 
-- OptiSigns Android Player
-- OptiSigns Pro or ProMax Player
-- OptiKiosk (any version)
-- Windows Devices
-- Linux Devices
-- Raspberry Pi
-- MacOS
+These features need a paid plan:
 
-The OptiSigns Free Plan **IS NOT SUPPORTED ON:**
+- **Schedules** - Showing different content at different times.
+- **Teamspaces and Groups** - Splitting your account into teams.
+- **Split screens on a screen** - You can build and save a split screen, but you need a paid plan to show it on a screen.
+- **Add-ons** - Such as Engage, OptiDev, Video Wall and OptiSound, including their free trials.
 
-- Amazon Devices (FireStick, Amazon Signage Stick, FireTV)
-- Android Devices (including Android Smart TVs, Google TV, Chromecast with Google TV, and other Android-based players)
-- Roku
-- Smart TVs (Samsung, LG, etc.)
-- ChromeOS
-- AppleTV / iOS / iPad
-- BrightSign players
-
-This list of not supported devices may not be exhaustive. If it is not explicitly stated in the supported devices above, you can safely assume your device is not supported.
-
-See [where to buy OptiSigns devices](https://support.optisigns.com/hc/en-us/articles/32129032857875-Where-to-Buy-OptiSigns-Devices) for more information.
+To compare every plan, see our [pricing page](https://www.optisigns.com/pricing).
 
 ---
 
-<a name="Signing"></a>
+<a name="SupportedDevices"></a>
 
-## Signing Up for an OptiSigns Free Plan
+## Supported Devices
 
-There are several ways to sign up for an OptiSigns Free Plan:
+The Free Plan works with these devices:
 
-- Signing up for an OptiSigns Free Trial, then letting that trial lapse without signing up for a Standard, Pro Plus, Engage, or Enterprise plan
-- Downgrading from a paid plan to a free plan
+- **OptiSigns devices** - OptiStick, Pro Player, ProMax, OptiKiosk and the OptiSigns Android player app.
+- **Computers** - Windows, macOS and Linux.
+- **Raspberry Pi**
 
-To see the status of your current plan, head to your **Subscription Plan** by hovering over the Account Name in the upper right corner of your web browser.
-
-![optisigns menu with arrow pointing toward subscription plan](https://support.optisigns.com/hc/article_attachments/33940834597651)
-
-There, you’ll see the number of screens you have access to, and the type of plan you’re using. To change it, hit **Update Subscription**.
-
-![number of screens with arrow pointing toward update subscription](https://support.optisigns.com/hc/article_attachments/33940848716307)
-
-You’ll be able to change the number of screens and the type of plan you’re using.
-
-![update subscription screen with arrow pointed toward next button](https://support.optisigns.com/hc/article_attachments/33940848717843)
-
-![optisigns pricing plan options](https://support.optisigns.com/hc/article_attachments/33940848721427)
-
-Select the **Free** option and you’ll be all set.
-
-For more, see [How to Change Your Subscription](https://support.optisigns.com/hc/en-us/articles/1500000493782-Billing-How-do-I-change-my-subscription-plan).
+Other devices need a paid plan. These include smart TVs (Samsung, LG and Android TVs), Amazon Fire TV and Signage Stick, Apple TV, iPhone and iPad, ChromeOS, BrightSign, Roku, Chromecast and Google TV, other Android boxes, the web player, and meeting-room systems such as Microsoft Teams Rooms, Zoom Rooms, Webex and Google Meet.
 
 ---
 
-<a name="Limitations"></a>
+<a name="AppsAvailableOnTheFreePlan"></a>
 
-## Free Plan Limitations
+## Apps Available on the Free Plan
 
-There are a few limitations to an OptiSigns Free Plan.
+You can use these apps on the Free Plan:
 
-- An OptiSigns logo will be displayed in the bottom right of your screen:
+- **Design** - Designer, Simple Clock.
+- **Weather** - Weather.
+- **News** - News, CNN, CBC, ESPN, The Guardian, The New York Times, The Wall Street Journal.
+- **Social media** - Facebook, Instagram, Instagram Business, LinkedIn, Social Mix, Follow Us.
+- **Social counters** - Facebook Counter, Instagram Counter, Twitter Counter.
+- **YouTube** - YouTube, YouTube Playlist, YouTube Channel, YouTube Live Schedule.
+- **Reviews** - Google Reviews.
+- **Other** - Local Folder, 25Live.
 
-![](https://support.optisigns.com/hc/article_attachments/48826858755859)
+Apps not on this list show a lock and need a paid plan.
 
-<a name="Content"></a>
+---
 
-### What Content Might Be Affected When Moving from a Paid Plan or Trial to a Free Plan?
+<a name="MoveToTheFreePlan"></a>
 
-If you’ve created assets or playlists in OptiSigns while on your free trial or while using a paid account and you choose to downgrade to a Free Plan, some of these may be affected.
+## Move to the Free Plan
 
-Certain apps will be unavailable for use on a Free Plan. These apps are marked with a red lock.
+### From a Paid Plan
 
-![example app with lock icon in upper right corner](https://support.optisigns.com/hc/article_attachments/33940834606867)
+Before you start, make sure your account fits the Free Plan. You'll be asked to fix these first:
 
-You will be unable to create assets using these apps while on a Free Plan. Any assets created using one of these apps during your trial or as a paid subscriber will still exist on the OptiSigns backend, but will be unable to display on your screens.
+- **Users** - Remove users until you have no more than 3.
+- **Teams** - Move your screens and content to the Default team, then delete every other team.
 
-If your used storage is more than 1GB, after your account is downgraded to a Free Plan, you will have limited ability to create new assets. You will need to delete some files to free up available storage for your free plan.
+Open the account menu at the top right and choose **Subscription Plan**, then click **Update subscription**. Click **Back to all plans** to see the plan cards. Below the cards, under **Don't want to keep your current features?**, click **Downgrade to Free Plan**.
 
-You will lose access to certain features that are not available on a Free plan, such as using Schedules, SplitScreens, or widgets in designer. Warning messages will appear when you attempt to use those features.
+![Plan cards with the line Don't want to keep your current features? and the Downgrade to Free Plan link highlighted](https://support.optisigns.com/hc/article_attachments/57733969177491)
 
-### Complete List of Apps Available with a Free Plan
+Tell us why you're downgrading, then review what changes. Click **Yes, downgrade to free plan**.
 
-- Designer - Except Widgets
-- YouTube
-- Weather
-- Facebook
-- Instagram
-- Instagram Business
-- LinkedIn
-- Social Mix
-- YouTube Playlist
-- YouTube Channel
-- YouTube Live Schedule
-- News
-- Google Reviews
-- ESPN
-- The Wall Street Journal
-- The New York Times
-- Follow Us
-- Instagram Counter
-- Facebook Counter
-- X (Twitter) Counter
-- Simple Clock
-- CNN
-- The Guardian
-- CBC
+![Are you sure you want to downgrade? comparison of Standard+ and Free, with Yes, downgrade to free plan highlighted](https://support.optisigns.com/hc/article_attachments/57733969178643)
 
-If you have any questions or issues that need support, please feel free to reach out to us at [support@optisigns.com](mailto:support@optisigns.com).
+Click **Confirm Downgrade**.
+
+![Downgrade to Free Plan? dialog with the Confirm Downgrade button highlighted](https://support.optisigns.com/hc/article_attachments/57733985144979)
+
+Your plan switches to the Free Plan **at the end of your current billing period**. Until then, you keep everything on your paid plan. When it switches:
+
+- **Screens** - Up to 3 supported screens keep playing. Any other screens, and any unsupported devices, move to the [OnHold Devices folder](https://support.optisigns.com/hc/en-us/articles/1500003244381) and stop using a license.
+- **Teams** - All screens move to the Default team.
+- **Add-ons** - Add-ons are removed from your account.
+- **Content** - Your content is kept. Anything that needs a paid feature, such as schedules or a split screen, stops playing on your screens.
+
+### From a Free Trial
+
+When your trial ends, you'll be asked to choose a plan. Click **Subscribe**, then **Downgrade to Free Plan** below the plan cards, and confirm. The switch happens straight away.
+
+Before you can switch, you need no more than 3 supported screens active, and no teams. If you have more screens, or a screen on an unsupported device, OptiSigns asks you to move them to OnHold Devices or unpair them first.
+
+---
+
+<a name="TroubleshootingAndFAQ"></a>
+
+## Troubleshooting and FAQ
+
+Here are a few of the more common issues our customers may face when using or moving to the Free Plan, and how to solve them.
+
+#### I Don't See a Free Plan Card
+
+There isn't one. The Free Plan is the **Downgrade to Free Plan** link below the plan cards.
+
+#### "Free Plan Does Not Support …, Please Upgrade Your Plan."
+
+That device or add-on needs a paid plan. See [Supported Devices](#SupportedDevices).
+
+#### I Can't Add More Users
+
+The Free Plan allows up to 3 users, including people you've invited but who haven't joined yet. Remove a user or cancel an invite, or upgrade your plan.
+
+#### Can I Go Back to a Paid Plan?
+
+Yes, at any time. See [Billing: Changing Plans or Screen Counts](https://support.optisigns.com/hc/en-us/articles/1500000493782). Screens in OnHold Devices can be moved back once you have licenses for them.
+
+#### Can I Cancel Instead of Moving to the Free Plan?
+
+Yes. See [Cancel, Pause or Downgrade Your Subscription](https://support.optisigns.com/hc/en-us/articles/17639078588691).

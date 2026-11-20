@@ -6,7 +6,7 @@ Article ID: 17639078588691
 
 Locale: en-us
 
-Updated at: 2026-11-16T22:41:11Z
+Updated at: 2026-11-19T20:34:02Z
 
 ---
 
@@ -49,7 +49,7 @@ Go to **Subscription Plan** and click **Update subscription**. Under **Number of
 
 You can't go below the number of screens you have paired. When you reach that number, clicking **−** opens **Screen Management**: "Move screens to OnHold or remove them to match your subscription."
 
-Click the pause button next to a screen to move it to **OnHold Devices**, or the bin to unpair it. A screen in OnHold keeps its settings but doesn't use a license, and it shows blank content until you move it back.
+Click the pause button next to a screen to move it to **OnHold Devices**, or the bin to unpair it. A screen in OnHold keeps its settings but doesn't use a license, and it shows a "Your Device is On Hold" message until you move it back.
 
 ![Screen Management dialog listing two paired screens, with the Move to OnHold button highlighted on the first](https://support.optisigns.com/hc/article_attachments/57619443430931)
 
