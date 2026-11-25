@@ -76,6 +76,7 @@
     "360041570153": "screen-calibration-fix-content-bleeding-off-the-screen.md",
     "360041587014": "how-to-change-your-billing-information-view-billing-history-and-download-receipt.md",
     "360041638433": "how-to-use-the-countdown-app.md",
+    "360042736794": "how-to-set-an-asset-to-live-or-expire-at-specific-time.md",
     "360043621953": "how-to-create-and-use-nested-playlists.md",
     "360046859534": "how-to-use-the-twitch-app.md",
     "360047275934": "whitelist-optisigns-ip-addresses-ports.md",
@@ -142,5 +143,5 @@
     "9169378546195": "data-residency-and-optisigns.md",
     "9392587446675": "how-to-use-airtable-with-optisigns.md"
   },
-  "updated_at": "2026-11-24T11:05:52Z"
+  "updated_at": "2026-11-25T09:54:54Z"
 }
