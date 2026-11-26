@@ -6,7 +6,7 @@ Article ID: 360036250853
 
 Locale: en-us
 
-Updated at: 2026-10-01T15:00:40Z
+Updated at: 2026-11-25T18:09:29Z
 
 ---
 
@@ -171,6 +171,16 @@ Next, hit **Add Calendar**. Find the calendar from the directory you wish to dis
 ![Outlook on the web Add calendar dialog on Add from directory, adding a room calendar to My calendars](https://support.optisigns.com/hc/article_attachments/42117351512467)
 
 Now, the appropriate calendar should display once it's been recreated in OptiSigns.
+
+---
+
+## Related Articles
+
+- [How to Set Up an Outlook Calendar App with Shared Permissions](https://support.optisigns.com/hc/en-us/articles/45619214182803?ref=related)
+- [How to approve OptiSigns as Enterprise App on Microsoft Azure (for Power BI, Calendar, etc. access)](https://support.optisigns.com/hc/en-us/articles/4403616315539?ref=related)
+- [How to Use the Calendar Mix app](https://support.optisigns.com/hc/en-us/articles/4408052949139?ref=related)
+- [How to use Google Calendar with OptiSigns](https://support.optisigns.com/hc/en-us/articles/360019517953?ref=related)
+- [How to Use the Microsoft Meeting Room App](https://support.optisigns.com/hc/en-us/articles/4406214738707?ref=related)
 
 ---
 

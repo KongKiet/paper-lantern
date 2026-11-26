@@ -6,7 +6,7 @@ Article ID: 4417940565139
 
 Locale: en-us
 
-Updated at: 2026-10-01T20:13:18Z
+Updated at: 2026-11-25T18:12:25Z
 
 ---
 
@@ -58,6 +58,16 @@ After Saving, you can Preview the Teams chat. It may take several seconds for th
 OptiSigns uses Microsoft APIs for integration. In order for our integrations to work, the integration has to be approved by an administrator. This is the same across all integrations using Microsoft APIs.
 
 This administrator access is only needed for first time access. Once the OptiSigns app is approved for use, other users can use OptiSigns directly.
+
+---
+
+## Related Articles
+
+- [How to Use the Microsoft Teams Meeting App](https://support.optisigns.com/hc/en-us/articles/4404053129619?ref=related)
+- [How to Use Microsoft Teams Live app with OptiSigns](https://support.optisigns.com/hc/en-us/articles/4411530012307?ref=related)
+- [How to Use OptiSigns with Microsoft Teams Rooms](https://support.optisigns.com/hc/en-us/articles/36911639377683?ref=related)
+- [Displaying SharePoint Sites on OptiSigns](https://support.optisigns.com/hc/en-us/articles/4414539282067?ref=related)
+- [How to Get a Microsoft Teams Webhook URL for OptiSigns Broadcast](https://support.optisigns.com/hc/en-us/articles/55416186918163?ref=related)
 
 ---
 

@@ -6,7 +6,7 @@ Article ID: 8399990754195
 
 Locale: en-us
 
-Updated at: 2026-10-12T18:33:37Z
+Updated at: 2026-11-25T18:11:59Z
 
 ---
 
@@ -52,6 +52,15 @@ To get the Smartsheet report URL, you can go to your Smartsheet report and click
 ![A Smartsheet sheet with the Share button at the top right highlighted](https://support.optisigns.com/hc/article_attachments/8400222153875)
 
 ![Smartsheet Sheet Sharing dialog with the Sheet Link URL highlighted](https://support.optisigns.com/hc/article_attachments/8400310710931)
+
+---
+
+## Related Articles
+
+- [How to Use the Monday.com App](https://support.optisigns.com/hc/en-us/articles/11032964830227?ref=related)
+- [How to use Airtable with OptiSigns](https://support.optisigns.com/hc/en-us/articles/9392587446675?ref=related)
+- [How to Use the Trello App](https://support.optisigns.com/hc/en-us/articles/360050244454?ref=related)
+- [How to Use the Asana App](https://support.optisigns.com/hc/en-us/articles/1500002233221?ref=related)
 
 ---
 
