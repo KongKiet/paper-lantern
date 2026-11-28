@@ -1,9 +1,9 @@
 {
   "command": "run",
   "status": "success",
-  "started_at": "2026-11-27T09:44:19Z",
-  "finished_at": "2026-11-27T09:44:25Z",
-  "elapsed_seconds": 5.9,
+  "started_at": "2026-11-28T08:57:37Z",
+  "finished_at": "2026-11-28T08:57:41Z",
+  "elapsed_seconds": 3.8,
   "scope": {
     "source": "https://support.optisigns.com/api/v2/help_center/en-us/articles.json",
     "locale": "en-us",
